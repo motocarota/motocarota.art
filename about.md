@@ -1,6 +1,8 @@
 ---
-title: About
+title: About me
 permalink: about/
 ---
 
-Hello, nothing in particolar here for now, if you are intrested look <a href="http://www.simone-poggi.com/">here</a> or <a href="http://www.simone-poggi.com/">here</a>.
+Hello, I'm a <a href="http://www.simone-poggi.com/">freelance software engineer</a> and a <a href="http://www.simone-poggi.com/art">comic artist</a>.
+
+I keep this blog just to keep my important links organized, because my bookmark list is a total mess.
