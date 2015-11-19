@@ -1,9 +1,9 @@
 ---
-title: Game development : Multiplayer Action RPG Client Design 
+title: Game development : Multiplayer Action RPG Design - Client
 updated: 2015-11-19 00:57
 ---
 
-# Client
+# Multiplayer Action RPG Design - Client
 
 ## Commands
 

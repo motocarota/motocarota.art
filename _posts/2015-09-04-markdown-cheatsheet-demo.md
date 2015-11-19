@@ -3,7 +3,7 @@ title: Markdown Cheatsheet Demo
 updated: 2015-09-04 22:43
 ---
 
-> This is Markdown Cheatsheet Demo for **The Plain**, this Jekyll theme. Please check the raw content of this file for the markdown usage.
+> Note: I keep this Markdown Cheatsheet Demo to check the raw content of this file for the markdown usage.
 
 ## Typography Elements in One
 
