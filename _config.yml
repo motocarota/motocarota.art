@@ -8,7 +8,12 @@ google_analytics:   # Put your Google Analytics code
 author_name:        "Motocarota"
 author_email:       motocarota@gmail.com
 author_gravatar:    # Gravatar md5 hash
-twitter_username:   Motocarota
+
+# Social users
+facebook_username:   Motocarota
+twitter_username:    Motocarota
+github_username:     Motocarota
+linkedin_username:   simonepoggi
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""

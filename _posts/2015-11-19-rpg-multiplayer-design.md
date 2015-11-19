@@ -1,9 +1,9 @@
 ---
-title: Game development : Multiplayer Action RPG Design - Client
+title: Game development : Multiplayer Action RPG Design
 updated: 2015-11-19 00:57
 ---
 
-# Multiplayer Action RPG Design - Client
+# Client
 
 ## Commands
 
@@ -89,3 +89,7 @@ His weakness are derived on a high proc/cooldown dependency.
 The wizard gameplay is around managing cooldown, mana and distance from enemies.
 It's a really challenging class to master that excels on area damage.
 His weakness is based on mana dependency for long fights and low resistance.
+
+# Server
+
+TODO
