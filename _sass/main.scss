@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 45px 0 25px;
+  margin: 25px 0;
 }
 img {
   max-width: 100%;
@@ -117,7 +117,7 @@ span[data-note] {
   -webkit-animation-fill-mode: both;
   -webkit-animation-name: bounce;
   a {
-    background: #ddd url("gravatar_wrapper.png");
+    // background: #f90;
     color: #000;
     text-decoration: none;
     font-weight: 700;
@@ -132,17 +132,18 @@ span[data-note] {
     box-sizing: border-box;
     &:hover,
     &:focus {
-      background: #f14e32;
+      // background: #f14e32;
+      width: 102px;
     }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
       display: inline-block !important;
     }
     .gravatar {
-      margin-top: 5px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
+      // margin-top: 2px;
+      // -webkit-border-radius: 50%;
+      // -moz-border-radius: 50%;
+      // border-radius: 50%;
     }
     @media (max-width : 480px) {&:hover + .logo-prompt,
       &:focus + .logo-prompt {
