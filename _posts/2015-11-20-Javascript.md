@@ -3,14 +3,18 @@ title: Javascript development
 updated: 2015-11-20 01:40
 ---
 
-# Javascript - Useful Links
+# Useful Reads
 
 - [The two pillars of Js: Protoypal inheritance](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
 - [The two pillars of Js: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.qa1pcg73t)
+- [Essential Js Links](https://github.com/ericelliott/essential-javascript-links#essential-javascript-links)
 - [Best resources to learn js](http://stackoverflow.com/questions/11246/best-resources-to-learn-javascript)
+- [Must watch videos](https://github.com/bolshchikov/js-must-watch)
+- [7 patterns to refactor applications](http://journal.crushlovely.com/post/92649246643/7-patterns-to-refactor-javascript-applications-decorator)
 
 ## ES6 (ES2015)
 
+- [ES6 in depth](https://ponyfoo.com/articles/tagged/es6-in-depth)
 - [ES6 feature list](https://github.com/lukehoban/es6features#readme)
 
 ## Promises
@@ -27,6 +31,7 @@ updated: 2015-11-20 01:40
 - Do One Thing (DOT).
 - Start small and iterate.
 - Pure function > Function > Factory > Class
+
 
 ## Useful libs
 
