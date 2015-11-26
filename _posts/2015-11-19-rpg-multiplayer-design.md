@@ -24,6 +24,7 @@ If you press your boost button while moving, you'll be running in that direction
 ## Classes
 
 ### Warrior
+---
 
 #### Stats
 
@@ -49,6 +50,7 @@ The warrior excels in close quarter battles and can sustain a lot of injuries, b
 - the only defensive ability is block (boost + 3) that reduces the incoming damage in one direction while channeled
 
 ### Rogue
+---
 
 #### Stats
 
@@ -73,6 +75,7 @@ Rogue has a fast, reactive gameplay;
 - low mana means he can run out of mana quickly
 
 ### Wizard
+---
 
 #### Stats
 
@@ -96,6 +99,7 @@ The wizard gameplay is around managing cooldown, mana and distance from enemies.
 - He can place a force barrier to block all the damage from one direction for a few seconds
 
 ### Bard
+---
 
 #### Stats
 
@@ -124,6 +128,7 @@ You dont have to aim at enemies, you are gonna hit them all anyway with your mus
 - When you get hit by an enemy you lose a stack
 - The boost apply to all the party members, except for the "start solo" (boost+4)
 
+---
 # Boss Encounters
 
 To give variety to the encounters some monsters will require a particular strategy to be killed, like damage reduction, aoe, weak spots, add summoning and so on.
