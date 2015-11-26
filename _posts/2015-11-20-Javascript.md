@@ -16,7 +16,8 @@ updated: 2015-11-20 01:40
 # ES6 (ES2015)
 
 [ES6 in depth](https://ponyfoo.com/articles/tagged/es6-in-depth)
-[ES6 feature list](https://github.com/lukehoban/es6features#readme)
+[Feature List](https://github.com/lukehoban/es6features#readme)
+[The complete Guide](http://jamesknelson.com/the-complete-guide-to-es6-with-babel-6/)
 [Compatibility table](http://kangax.github.io/compat-table/es6/)
 [Webpack build with babel and sass](http://jamesknelson.com/webpack-made-simple-build-es6-less-with-autorefresh-in-26-lines/)
 
@@ -32,7 +33,7 @@ updated: 2015-11-20 01:40
 
 # Libs
 
-[webpack](http://webpack.github.io/docs/)
+[webpack](http://webpack.github.io/docs/) : advanced module bundler
 [joi](https://github.com/hapijs/joi) : object schema validation
 [moment.js](http://momentjs.com/) : Parse, validate, manipulate, and display dates
 [d3](http://d3js.org/) : manipulating documents based on data
