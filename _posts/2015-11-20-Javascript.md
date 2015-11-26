@@ -30,6 +30,12 @@ updated: 2015-11-20 01:40
 
 [learn functional programming](http://reactivex.io/learnrx/)
 [jQuery tricks everyone should know](https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know/)
+[Better Random Values](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues)
+
+# Resources
+
+[Google developer resources](https://developers.google.com/web/)
+[Google developer all products](https://developers.google.com/products/)
 
 # Libs
 
