@@ -33,7 +33,8 @@ updated: 2015-11-20 01:40
 [Better Random Values](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues)
 
 # Generic Intresting Sfuff
-[Html GL](https://github.com/PixelsCommander/HTML-GL)
+[Html GL](https://github.com/PixelsCommander/HTML-GL) : webGL html rendering
+[NASA coding standard](http://pixelscommander.com/en/javascript/nasa-coding-standarts-for-javascript-performance/) : applied to javascript
 
 # Resources
 
