@@ -32,6 +32,9 @@ updated: 2015-11-20 01:40
 [jQuery tricks everyone should know](https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know/)
 [Better Random Values](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues)
 
+# Generic Intresting Sfuff
+[Html GL](https://github.com/PixelsCommander/HTML-GL)
+
 # Resources
 
 [Google developer resources](https://developers.google.com/web/)
