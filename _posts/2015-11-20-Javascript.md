@@ -16,6 +16,7 @@ updated: 2015-11-20 01:40
 
 # ES6 (ES2015)
 
+[ES6 cheatsheet](/es6-cheatsheet.pdf)
 [ES6 in depth](https://ponyfoo.com/articles/tagged/es6-in-depth)
 [Feature List](https://github.com/lukehoban/es6features#readme)
 [The complete Guide](http://jamesknelson.com/the-complete-guide-to-es6-with-babel-6/)
