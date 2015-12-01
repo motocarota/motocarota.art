@@ -7,6 +7,7 @@ updated: 2015-11-20 01:40
 
 [The two pillars of Js: Protoypal inheritance](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
 [The two pillars of Js: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.qa1pcg73t)
+[Must See js dev tools](https://medium.com/javascript-scene/must-see-javascript-dev-tools-that-put-other-dev-tools-to-shame-aca6d3e3d925)
 [Essential Js Links](https://github.com/ericelliott/essential-javascript-links#essential-javascript-links)
 [Best resources to learn js](http://stackoverflow.com/questions/11246/best-resources-to-learn-javascript)
 [Must watch videos](https://github.com/bolshchikov/js-must-watch)
