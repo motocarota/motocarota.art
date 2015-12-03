@@ -34,10 +34,10 @@ If you press your boost button while moving, you'll be running in that direction
 
 | Key | Normal Effect					| Boosted Effect 					|  
 | --- | ------------------------------- | --------------------------------- |
-| 1   | pierce (medium cost) 			| counterattack (proc, high damage)	|
-| 2   | slash (medium cost, dot)		| whirlwind (aoe, cooldown)			|
+| 1   | slash (medium cost) 		| headbutt (proc, high damage)	|
+| 2   | pierce (medium cost, dot)	| whirlwind (aoe, cooldown)			|
 | 3   | shield bash (stun, cooldown)	| block (channel, damage reduction)	|
-| 4   | thunderclap (aoe, low damage)	| mighty roar (aoe, stun)			|
+| 4   | thunderclap (aoe, low damage)	| mighty punch (aoe, stun)			|
 | def | go defensive (health regen, less damage) | go aggressive (increase damage, mana regen) |
 
 #### Description
