@@ -13,6 +13,7 @@ updated: 2015-11-20 01:40
 [Must watch videos](https://github.com/bolshchikov/js-must-watch)
 [7 patterns to refactor applications](http://journal.crushlovely.com/post/92649246643/7-patterns-to-refactor-javascript-applications-decorator)
 [js stats](http://stats.js.org/)
+[learning resources](https://github.com/jshomes/learning-resources)
 
 # ES6 (ES2015)
 
@@ -35,6 +36,7 @@ updated: 2015-11-20 01:40
 [Better Random Values](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues)
 
 # Generic Intresting Sfuff
+
 [Html GL](https://github.com/PixelsCommander/HTML-GL) : webGL html rendering
 [NASA coding standard](http://pixelscommander.com/en/javascript/nasa-coding-standarts-for-javascript-performance/) : applied to javascript
 
