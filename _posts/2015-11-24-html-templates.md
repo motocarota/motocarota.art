@@ -1,5 +1,5 @@
 ---
-title: Jekyll / Bootstrap Templates
+title: HTML Templates
 updated: 2015-11-24 00:57
 category: frontend
 ---
