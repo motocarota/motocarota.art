@@ -7,6 +7,7 @@ category: development
 # API Docs
 
 [AngularJs](https://docs.angularjs.org/api)
+[Angular 2 Homepage](https://angular.io/)
 [Ionic Framework](http://ionicframework.com/docs/)
 [ngCordova](http://ngcordova.com/docs/)
 [UI-Router](http://angular-ui.github.io/ui-router/site/#/api/ui.router)
@@ -33,4 +34,5 @@ category: development
 
 # General
 
+[Angular tutorials](http://angularjs.io/)
 [NG6 starter](https://github.com/angularclass/NG6-starter/tree/jspm) : Jspm, Babel, Angular in ES6
