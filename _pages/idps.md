@@ -1,6 +1,7 @@
 ---
-title: Game development : Multiplayer Action RPG Design
+title: iDps Multiplayer Action RPG Design
 updated: 2015-11-19 00:57
+permalink: /idps.html
 ---
 
 # Client
@@ -13,11 +14,11 @@ If you combine your boost with the other 5 button you get a set of 10 actions.
 
 | Key | Normal Effect | Boosted Effect |  
 | --- | ------------- | ---------------|  
-| 1   |               |                |
-| 2   |               |                |
-| 3   |               |                |
-| 4   |               |                |
-| def |               |                |  
+| 1   | spell #1      | spell #5       |
+| 2   | spell #2      | spell #6       |
+| 3   | spell #3      | spell #7       |
+| 4   | spell #4      | spell #8       |
+| def | spell #9      | spell #10      |  
 
 If you press your boost button while moving, you'll be running in that direction, consuming 1% mana per second.
 
@@ -41,13 +42,15 @@ If you press your boost button while moving, you'll be running in that direction
 | def | go defensive (health regen, less damage) | go aggressive (increase damage, mana regen) |
 
 #### Description
-The warrior excels in close quarter battles and can sustain a lot of injuries, being able to fight for a long period of time
-- has low mobility but high stamina 
+The warrior excels in close quarter battles and can sustain a lot of injuries, being able to fight for a long period of time.
+
+- high damage resistance
 - high sustained single target damage
-- can swap fighting style between aggressive and defensive to better fit to the current situation
-- aggressive stance increase the damage dealt and the mana regeneration to speed up the attacks
+- aggressive stance increase the damage dealt and the mana regeneration
 - defensive reduces damage taken and gives health regen
-- the only defensive ability is block (boost + 3) that reduces the incoming damage in one direction while channeled
+- low mobility
+- short range attacks only
+- block (boost + 3) reduces the incoming damage in one direction while channeled
 
 ### Rogue
 ---
@@ -66,13 +69,16 @@ The warrior excels in close quarter battles and can sustain a lot of injuries, b
 | 4   | backstab (positional, high damage) 		| finish him (low health, high damage)	|
 | def | roll (enable sneak attack, cooldown) 	| sprint (speed increase, cooldown) 	|
 
-Rogue has a fast, reactive gameplay; 
-- excels on high burst single target damage and target swapping.
-- His weakness come from a high proc/cooldown dependency and low mana
-- cant stay longer period in close range with enemies
-- can finish off low health mobs faster than other classes
-- his defense is based on being in the right spot at the right moment
-- low mana means he can run out of mana quickly
+Rogue has a fast, reactive gameplay; You have the ability to finish off weak enemies fast, but can't stand longer in melee due to his limited damage resistance and low mana.
+
+- high burst single target damage 
+- excels at target swapping
+- high mobility
+- low physical resistance
+- runs out of mana quickly
+- short range attacks only
+- high proc/cooldown dependency 
+- low mana
 
 ### Wizard
 ---
@@ -91,12 +97,14 @@ Rogue has a fast, reactive gameplay;
 | 4   | cure (high cost, healing, channeled) 		| finger of death (proc, melee, high cost, high damage) 		|
 | def | force barrier (no damage in one direction) 	| evocation( mana regen, cooldown ) 							|
 
-The wizard gameplay is around managing cooldown, mana and distance from enemies.
-- It's a really challenging class to master 
-- has a very flexible and bursty way of dealing damage to multiple enemies
-- His weakness is based upon mana dependency and low physical resistance
-- Many spells with cooldown means he have to think twice before spamming nukes around
-- He can place a force barrier to block all the damage from one direction for a few seconds
+The wizard gameplay it's a really challenging class to master: the key to succeed is around managing cooldown, mana and distance from enemies.
+
+- very flexible and bursty way of dealing damage
+- excels in area of effect damage
+- high mana dependency 
+- squishy
+- many spells with medium/high cooldowns
+- force barrier prevents all the damage from one direction for a few seconds
 
 ### Bard
 ---
