@@ -50,17 +50,17 @@ category: development, backend, fronted
 # Libs
 
 [webpack](http://webpack.github.io/docs/) : advanced module bundler
-[joi](https://github.com/hapijs/joi) : object schema validation
 [moment.js](http://momentjs.com/) : Parse, validate, manipulate, and display dates
 [d3](http://d3js.org/) : manipulating documents based on data
 [lodash](https://lodash.com/) : utility library
 [paper.js](http://paperjs.org/) : Vector Graphics Scripting
 [three.js](http://threejs.org/) : WebGL 3D Library
-[pouchDb](http://pouchdb.com/api.html)
 [reveal.js](http://lab.hakim.se/reveal-js/#/) : html presentation framework 
 [leaflet](http://leafletjs.com/reference.html) : mobile-friendly interactive maps
 [hammer.js](http://hammerjs.github.io/getting-started/) : touch gesture
 [fastClick](https://github.com/ftlabs/fastclick) : Polyfill to remove click delays on browsers with touch UI
+[PouchDb](http://pouchdb.com/api.html) : CouchDB-inspired browser database
+
 
 >- Understand the problem.
 - Keep It Stupid Simple (KISS)
