@@ -1,5 +1,5 @@
 ---
-title: AngularJs 1.x
+title: AngularJs
 updated: 2015-11-20 01:30
 category: development
 ---
