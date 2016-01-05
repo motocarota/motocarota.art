@@ -16,6 +16,7 @@ category: frontend
 
 ## Admin Panel
 - [KAdmin](https://shapebootstrap.net/item/1524954-kadmin-free-responsive-admin-dashboard-template)
+- [Director](http://www.bootstrapzero.com/bootstrap-template/director-responsive-admin)
 
 ## Collections
 - [JekyllThemes.io](http://jekyllthemes.io/)
