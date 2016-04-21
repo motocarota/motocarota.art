@@ -7,6 +7,7 @@ category: frontend
 - [EM vs REM](http://zellwk.com/blog/rem-vs-em/)
 - [PostCSS](http://postcss.parts/)
 - [CSS Flexbox tutorial](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+- [Flexbox Patterns](http://www.flexboxpatterns.com/home)
 
 # Frameworks
 - [Bootstrap](http://getbootstrap.com/)
