@@ -1,5 +1,5 @@
 ---
-title: Website development
+title: Web Development / Themes
 updated: 2015-11-24 00:57
 category: frontend
 ---
@@ -15,6 +15,7 @@ category: frontend
 - [Foundation](http://foundation.zurb.com/)
 
 # Jekyll Themes
+
 ## General purpose
 - [Will](http://jekyllthemes.io/theme/40167614/will-jekyll-template)
 - [Single Paged](https://github.com/t413/SinglePaged/) : [demo](http://t413.com/SinglePaged/)
