@@ -8,8 +8,8 @@ layout: default
 		{% for post in site.posts %}
 
 		<li>
-			<div class="post-date">
-				<span>{{ post.date | date: "%b %d, %Y" }}</span>
+			<div class="logo">
+				<img src="{{ post.title | prepend: site.baseurl +'/asset/' }}"/>
 			</div>
 			<div class="title">
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
