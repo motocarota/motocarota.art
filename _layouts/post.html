@@ -16,7 +16,9 @@ layout: default
 
 	<div class="center">
 		<h1>{{ page.title }}</h1>
-		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
+		<div class="logo">
+			<img src="{{ site.baseurl }}/assets/{{ post.image }}.png"/>
+		</div>
 	</div>
 
 	<div class="divider"></div>
