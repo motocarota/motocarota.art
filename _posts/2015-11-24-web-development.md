@@ -1,6 +1,6 @@
 ---
 title: Web Development
-updated: 2015-11-24 00:57
+image: web-dev
 category: frontend
 ---
 # Css

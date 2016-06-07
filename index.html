@@ -7,7 +7,7 @@ layout: default
 		{% for post in site.posts %}
 		<div class="flex-item">
 			<div class="logo">
-				<img src="{{ post.title | prepend: site.baseurl +'/asset/' }}"/>
+				<img src="{{ post.image | prepend: site.baseurl +'/asset/' }}"/>
 			</div>
 			<div class="title">
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
