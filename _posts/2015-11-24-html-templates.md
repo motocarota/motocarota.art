@@ -1,5 +1,5 @@
 ---
-title: Web Development / Themes
+title: Web Development
 updated: 2015-11-24 00:57
 category: frontend
 ---
@@ -14,7 +14,12 @@ category: frontend
 - [Sematic UI](http://semantic-ui.com/)
 - [Foundation](http://foundation.zurb.com/)
 
-# Jekyll Themes
+# Other
+- [Resource Cards](https://resourcecards.com/)
+- [Static Site Tools](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
+- [Material Design Bootstrap](http://mdbootstrap.com/)
+
+# Themes
 
 ## General purpose
 - [Will](http://jekyllthemes.io/theme/40167614/will-jekyll-template)
@@ -34,8 +39,3 @@ category: frontend
 - [dr.Jekyll themes](https://drjekyllthemes.github.io/)
 - [Bootstrap Zero](http://www.bootstrapzero.com/)
 - [Shape Bootstrap](https://shapebootstrap.net/)
-
-# Other
-- [Resource Cards](https://resourcecards.com/)
-- [Static Site Tools](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
-- [Material Design Bootstrap](http://mdbootstrap.com/)
