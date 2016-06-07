@@ -3,20 +3,16 @@ layout: default
 ---
 
 <section>
-	<ul>
-
+	<div class="flex-grid">
 		{% for post in site.posts %}
-
-		<li>
+		<div class="flex-item">
 			<div class="logo">
 				<img src="{{ post.title | prepend: site.baseurl +'/asset/' }}"/>
 			</div>
 			<div class="title">
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</div>
-		</li>
-
+		</div>
 		{% endfor %}
-
-	</ul>
+	</div>
 </section>
