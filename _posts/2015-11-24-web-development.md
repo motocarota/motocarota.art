@@ -18,6 +18,7 @@ category: frontend
 - [Resource Cards](https://resourcecards.com/)
 - [Static Site Tools](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
 - [PatternLab](http://patternlab.io/)
+- [UpLabs](http://www.uplabs.com/)
 
 # Themes
 
