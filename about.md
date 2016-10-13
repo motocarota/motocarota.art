@@ -18,4 +18,4 @@ I keep this blog just to keep my important links organized, because my bookmark 
 - [Twitter](https://www.twitter.com/{{site.twitter_username}})
 - [Github](https://www.github.com/{{site.github_username}})
 - [LinkedIn](https://it.linkedin.com/in/{{site.linkedin_username}})
-- [Pocket](https://getpocket.com/{{site.pocket_username}})
+- [Pocket](https://getpocket.com/@{{site.pocket_username}})
