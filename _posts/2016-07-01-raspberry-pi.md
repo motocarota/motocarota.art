@@ -1,5 +1,5 @@
 ---
-title: raspberry Pi
+title: Raspberry Pi
 image: raspberry
 category: development
 ---
