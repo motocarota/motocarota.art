@@ -1,3 +1,9 @@
+---
+title: raspberry Pi
+image: raspberry
+category: development
+---
+
 # Base
 
 - [Official site](https://www.raspberrypi.org/)
