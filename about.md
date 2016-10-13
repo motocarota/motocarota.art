@@ -3,7 +3,7 @@ title: About me
 permalink: about/
 ---
 
-Hello, I'm a Passionate Developer {experienced|in Love} with:
+Hello, I'm a Passionate Developer experienced/in Love with:
 
 - Javascript, TDD, FP
 - Node.js, Express, Rails
