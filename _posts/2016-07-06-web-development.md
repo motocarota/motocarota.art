@@ -24,6 +24,7 @@ category: frontend
 # Themes
 
 ## General purpose
+- [Best of themes](https://www.bestofthemes.com/)
 - [Material Design Bootstrap](http://mdbootstrap.com/)
 - [Will](http://jekyllthemes.io/theme/40167614/will-jekyll-template)
 - [Single Paged](https://github.com/t413/SinglePaged/) : [demo](http://t413.com/SinglePaged/)
