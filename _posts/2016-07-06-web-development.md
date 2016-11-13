@@ -13,6 +13,7 @@ category: frontend
 - [Bootstrap](http://getbootstrap.com/)
 - [Sematic UI](http://semantic-ui.com/)
 - [Foundation](http://foundation.zurb.com/)
+- [Blueprint](http://blueprintjs.com/)
 
 # Other
 - [Thoughtworks tech radar](https://www.thoughtworks.com/radar)
