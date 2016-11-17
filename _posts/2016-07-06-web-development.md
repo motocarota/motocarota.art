@@ -16,6 +16,7 @@ category: frontend
 - [Blueprint](http://blueprintjs.com/)
 
 # Other
+- [A practical guide to building modern applications](https://formidable.com/open-source/playbook/)
 - [Thoughtworks tech radar](https://www.thoughtworks.com/radar)
 - [Resource Cards](https://resourcecards.com/)
 - [Staticman](https://staticman.net/)
