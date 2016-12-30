@@ -28,3 +28,4 @@ category: development
 - [MongoDB](http://www.widriksson.com/install-mongodb-raspberrypi/)
 - [Bittorrent](http://www.howtogeek.com/142044/how-to-turn-a-raspberry-pi-into-an-always-on-bittorrent-box/)
 - [Remote cam](http://thejackalofjavascript.com/rpi-live-streaming/)
+- [Syncthing](https://syncthing.net/)
