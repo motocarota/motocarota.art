@@ -26,6 +26,7 @@ category: frontend
 - [PatternLab](http://patternlab.io/)
 - [UpLabs](http://www.uplabs.com/)
 - [Motion js](https://github.com/legomushroom/mojs)
+- [HTML5 Security Cheat Sheet](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet)
 
 # Themes
 
