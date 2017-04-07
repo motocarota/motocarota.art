@@ -22,6 +22,7 @@ category: development
 
 # Various
 
+- [Lego Macintosh Classic](https://jann.is/lego-macintosh-classic/)
 - [BIOS config](http://elinux.org/RPi_config.txt)
 - [install Raspbian on USB drive](http://www.samhobbs.co.uk/2013/10/speed-up-your-pi-by-booting-to-a-usb-flash-drive) : to improve performance
 - [secure Wordpress install](https://samhobbs.co.uk/2014/07/more-secure-wordpress-setup-raspberry-pi)
