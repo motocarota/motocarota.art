@@ -18,6 +18,7 @@ category: frontend
 - [Blueprint](http://blueprintjs.com/)
 
 # Other
+- [Websites obesity crysis](http://idlewords.com/talks/website_obesity.htm)
 - [10 thinkgs I learned making the fastest site in the world](https://hackernoon.com/10-things-i-learned-making-the-fastest-site-in-the-world-18a0e1cdf4a7#.3n18ttwn8)
 - [Let's encrypt](https://letsencrypt.org/) free, automated, and open Certificate Authority.
 - [A practical guide to building modern applications](https://formidable.com/open-source/playbook/)
