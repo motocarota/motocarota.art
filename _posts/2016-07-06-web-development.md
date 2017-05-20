@@ -18,6 +18,7 @@ category: frontend
 - [Blueprint](http://blueprintjs.com/)
 
 # Other
+- [Lighthouse](https://github.com/GoogleChrome/lighthouse) : analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.
 - [Websites obesity crysis](http://idlewords.com/talks/website_obesity.htm)
 - [10 thinkgs I learned making the fastest site in the world](https://hackernoon.com/10-things-i-learned-making-the-fastest-site-in-the-world-18a0e1cdf4a7#.3n18ttwn8)
 - [Let's encrypt](https://letsencrypt.org/) free, automated, and open Certificate Authority.
