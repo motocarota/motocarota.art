@@ -31,6 +31,7 @@ category: frontend
 - [UpLabs](http://www.uplabs.com/)
 - [Motion js](https://github.com/legomushroom/mojs)
 - [HTML5 Security Cheat Sheet](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet)
+- [connect frontend experience](https://stripe.com/blog/connect-front-end-experience)
 
 # Themes
 
