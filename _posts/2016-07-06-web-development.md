@@ -17,21 +17,24 @@ category: frontend
 - [Foundation](http://foundation.zurb.com/)
 - [Blueprint](http://blueprintjs.com/)
 
+# Guides
+- [Front-end Guide](https://github.com/grab/front-end-guide)
+- [A practical guide to building modern applications](https://formidable.com/open-source/playbook/)
+- [HTML5 Security Cheat Sheet](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet)
+- [connect frontend experience](https://stripe.com/blog/connect-front-end-experience)
+- [PatternLab](http://patternlab.io/)
+- [UpLabs](http://www.uplabs.com/)
+- [10 thinkgs I learned making the fastest site in the world](https://hackernoon.com/10-things-i-learned-making-the-fastest-site-in-the-world-18a0e1cdf4a7#.3n18ttwn8)
+
 # Other
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse) : analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.
 - [Websites obesity crysis](http://idlewords.com/talks/website_obesity.htm)
-- [10 thinkgs I learned making the fastest site in the world](https://hackernoon.com/10-things-i-learned-making-the-fastest-site-in-the-world-18a0e1cdf4a7#.3n18ttwn8)
 - [Let's encrypt](https://letsencrypt.org/) free, automated, and open Certificate Authority.
-- [A practical guide to building modern applications](https://formidable.com/open-source/playbook/)
 - [Thoughtworks tech radar](https://www.thoughtworks.com/radar)
 - [Resource Cards](https://resourcecards.com/)
 - [Staticman](https://staticman.net/)
 - [Static Site Tools](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
-- [PatternLab](http://patternlab.io/)
-- [UpLabs](http://www.uplabs.com/)
 - [Motion js](https://github.com/legomushroom/mojs)
-- [HTML5 Security Cheat Sheet](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet)
-- [connect frontend experience](https://stripe.com/blog/connect-front-end-experience)
 
 # Themes
 
