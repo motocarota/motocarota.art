@@ -18,6 +18,7 @@ category: frontend
 - [Blueprint](http://blueprintjs.com/)
 
 # Guides
+- [Deploying ES2015 code in production today](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)
 - [Front-end Guide](https://github.com/grab/front-end-guide)
 - [A practical guide to building modern applications](https://formidable.com/open-source/playbook/)
 - [HTML5 Security Cheat Sheet](https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet)
