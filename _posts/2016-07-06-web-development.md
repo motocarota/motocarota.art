@@ -18,6 +18,8 @@ category: frontend
 - [Blueprint](http://blueprintjs.com/)
 
 # Guides
+- [JAM stack](https://jamstack.org/) Javascript + API + Markdown
+- [Gatsby](https://www.gatsbyjs.org/)
 - [Deploying ES2015 code in production today](https://philipwalton.com/articles/deploying-es2015-code-in-production-today/)
 - [Front-end Guide](https://github.com/grab/front-end-guide)
 - [A practical guide to building modern applications](https://formidable.com/open-source/playbook/)
@@ -36,6 +38,8 @@ category: frontend
 - [Staticman](https://staticman.net/)
 - [Static Site Tools](http://cloudcannon.com/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html)
 - [Motion js](https://github.com/legomushroom/mojs)
+- [Pop Motion](https://popmotion.io/) animations
+- [Contentful](https://www.contentful.com/) headless CMS
 
 # Themes
 
