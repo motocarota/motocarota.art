@@ -2,35 +2,35 @@
 name: "stories"
 arts:
 # Row 1
-- image: "images/galleries/stories/luce-00.png"
+- image: "images/galleries/stories/luce_00.png"
   order: "1"
   description: "L'acqua era davvero fredda, quella notte."
 
-- image: "images/galleries/stories/luce-01.png"
+- image: "images/galleries/stories/luce_01.png"
   order: "2"
   description: "..."
 
-- image: "images/galleries/stories/luce-02.png"
+- image: "images/galleries/stories/luce_02.png"
   order: "3"
   description: "..."
 
-- image: "images/galleries/stories/luce-03.png"
+- image: "images/galleries/stories/luce_03.png"
   order: "4"
   description: "..."
 
-- image: "images/galleries/stories/luce-04.png"
+- image: "images/galleries/stories/luce_04.png"
   order: "5"
   description: "..."
 
-- image: "images/galleries/stories/luce-05.png"
+- image: "images/galleries/stories/luce_05.png"
   order: "6"
   description: "..."
 
-- image: "images/galleries/stories/luce-06.png"
+- image: "images/galleries/stories/luce_06.png"
   order: "7"
   description: "..."
 
-- image: "images/galleries/stories/luce-07.png"
+- image: "images/galleries/stories/luce_07.png"
   order: "8"
   description: "..."
 
