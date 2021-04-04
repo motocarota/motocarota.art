@@ -45,3 +45,5 @@ permalink: /blog/:year/:title
 
 collections:
   - galleries
+
+version: v0.0.1
