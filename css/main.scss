@@ -1,3 +1,13 @@
 ---
 ---
 @import "starving-artist";
+
+div.lightbox-popup {
+  border: none;
+}
+
+a.lightbox-prev,
+a.lightbox-next,
+a.lightbox-popup-close {
+  font-size: 3em;
+}
