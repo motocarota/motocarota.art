@@ -1,13 +1,31 @@
 ---
 ---
 @import "starving-artist";
-
+.lightbox-overlay:target + .lightbox-popup,
 div.lightbox-popup {
   border: none;
+  top: 0;
+  left: 0;
+  width: 96%;
+  height: 100%;
+  margin: 0 1.5%;
+  max-width: none;
+  transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  -moz-transform: none;
+  -webkit-transform: none;
 }
 
 a.lightbox-prev,
 a.lightbox-next,
 a.lightbox-popup-close {
   font-size: 3em;
+  margin-top: 0.5em;
+}
+
+a.lightbox-prev,
+a.lightbox-next {
+  bottom: 0.5em;
+  position: fixed;
 }
