@@ -1,7 +1,7 @@
 ---
 title: Web Development
 image: web-dev
-category: frontend
+category: development
 ---
 # Css
 - [EM vs REM](http://zellwk.com/blog/rem-vs-em/)
