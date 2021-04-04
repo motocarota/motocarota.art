@@ -8,30 +8,50 @@ arts:
 
 - image: "images/galleries/stories/luce_01.png"
   order: "2"
-  description: "..."
 
 - image: "images/galleries/stories/luce_02.png"
   order: "3"
-  description: "..."
 
 - image: "images/galleries/stories/luce_03.png"
   order: "4"
-  description: "..."
 
 - image: "images/galleries/stories/luce_04.png"
   order: "5"
-  description: "..."
 
 - image: "images/galleries/stories/luce_05.png"
   order: "6"
-  description: "..."
 
 - image: "images/galleries/stories/luce_06.png"
   order: "7"
-  description: "..."
 
 - image: "images/galleries/stories/luce_07.png"
   order: "8"
-  description: "..."
+  
+- image: "images/galleries/stories/luce_08.png"
+  order: "9"
+
+- image: "images/galleries/stories/luce_09.png"
+  order: "10"
+
+- image: "images/galleries/stories/luce_10.png"
+  order: "11"
+
+- image: "images/galleries/stories/luce_11.png"
+  order: "12"
+
+- image: "images/galleries/stories/luce_12.png"
+  order: "13"
+
+- image: "images/galleries/stories/luce_13.png"
+  order: "14"
+
+- image: "images/galleries/stories/luce_14.png"
+  order: "15"
+
+- image: "images/galleries/stories/luce_15.png"
+  order: "16"
+
+- image: "images/galleries/stories/luce_16.png"
+  order: "17"
 
 ---
