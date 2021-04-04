@@ -45,4 +45,4 @@ Temporary Items
 #generated static files
 _site
 
-.jekyll-cache
+.jekyll-cache/*
