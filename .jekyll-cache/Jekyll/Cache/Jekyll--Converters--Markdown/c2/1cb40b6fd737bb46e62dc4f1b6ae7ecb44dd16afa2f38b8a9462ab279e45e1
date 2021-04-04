@@ -1,0 +1,134 @@
+I"U<h1 id="installation">Installation</h1>
+<p>This theme is compatible with Jekyll 2.2 Gem Themes as well as older versions of Jekyll.  <br />
+You can install:</p>
+<ul>
+  <li><a href="#start-a-new-site">As a Gem Theme On a Brand New Site</a></li>
+  <li><a href="#migrate-an-existing-site">As a Gem Theme On an Existing Site</a></li>
+  <li><a href="#jekyll-original-method">Jekyll 2.1 Method (Git Clone)</a></li>
+</ul>
+
+<h2 id="install-as-gem-theme">Install as Gem Theme</h2>
+<p>Jekyll requires Ruby so make sure Ruby is installed before you begin.</p>
+
+<hr />
+<h3 id="start-a-new-site">Start a New Site</h3>
+<ul>
+  <li>Install Jekyll and Bundler
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">gem install bundler</code></li>
+    </ul>
+  </li>
+  <li>Create a New Site
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">jekyl new mysite</code></li>
+    </ul>
+  </li>
+  <li>Move into that directory
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cd mysite</code></li>
+    </ul>
+  </li>
+  <li>Install Required Gems
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">bundle install</code></li>
+    </ul>
+  </li>
+  <li>Verify
+    <ul>
+      <li>Run <code class="language-plaintext highlighter-rouge">jekyll serve</code></li>
+      <li>Browse to <a href="http://localhost:4000">http://localhost:4000</a></li>
+    </ul>
+  </li>
+  <li>Download Starving Artist Theme
+    <ul>
+      <li>Replace the line <code class="language-plaintext highlighter-rouge">gem "minima"</code> with this:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">gem "starving-artist-jekyll-theme"</code></li>
+        </ul>
+      </li>
+      <li>Run <code class="language-plaintext highlighter-rouge">bundle install</code></li>
+    </ul>
+  </li>
+  <li>Tell Jekyll to use Starving Artist Theme
+    <ul>
+      <li>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and change the line <code class="language-plaintext highlighter-rouge">theme: minima</code> to this:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">theme: starving-artist-jekyll-theme</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Import the Starving Artist CSS
+    <ul>
+      <li>Open your <code class="language-plaintext highlighter-rouge">css/style.css</code> and change the line <code class="language-plaintext highlighter-rouge">@import "minima;"</code> to this:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">@import "starving-artist";</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h3 id="migrate-an-existing-site">Migrate an Existing Site</h3>
+<p><strong>NOTE</strong> This requires you to be upgraded to at least Jekyll 3.2 which added support for themes.</p>
+
+<ul>
+  <li>Download Starving Artist Theme
+    <ul>
+      <li>Replace the line <code class="language-plaintext highlighter-rouge">gem "minima"</code> with this:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">gem "starving-artist-jekyll-theme"</code></li>
+        </ul>
+      </li>
+      <li>Run <code class="language-plaintext highlighter-rouge">bundle install</code></li>
+    </ul>
+  </li>
+  <li>Tell Jekyll to use Starving Artist Theme
+    <ul>
+      <li>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and change the line <code class="language-plaintext highlighter-rouge">theme: minima</code> to this:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">theme: starving-artist-jekyll-theme</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Import the Starving Artist CSS
+    <ul>
+      <li>Open your <code class="language-plaintext highlighter-rouge">css/style.css</code> and change the line <code class="language-plaintext highlighter-rouge">@import "minima;"</code> to this:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">@import "starving-artist";</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h2 id="jekyll-original-method">Jekyll Original Method</h2>
+<p>Jekyll requires Ruby so make sure Ruby is installed before you begin.</p>
+
+<ul>
+  <li>Download this site
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">git clone https://github.com/chrisanthropic/starving-artist-jekyll-theme.git</code></li>
+    </ul>
+  </li>
+  <li>Move into its directory
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cd starving-artist-jekyll-theme</code></li>
+    </ul>
+  </li>
+  <li>Install Required Gems
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">bundle install</code></li>
+    </ul>
+  </li>
+  <li>Verify
+    <ul>
+      <li>Run <code class="language-plaintext highlighter-rouge">jekyll serve</code></li>
+      <li>Browse to <a href="http://localhost:4000">http://localhost:4000</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

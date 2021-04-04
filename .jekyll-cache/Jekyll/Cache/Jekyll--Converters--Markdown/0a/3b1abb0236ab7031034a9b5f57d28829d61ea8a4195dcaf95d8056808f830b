@@ -1,0 +1,86 @@
+I"˜<h1 id="sass-configuration">Sass Configuration</h1>
+<p><code class="language-plaintext highlighter-rouge">_sass/variables.scss</code> includes the following variables for easy customization:</p>
+
+<p><strong>Base Colors</strong></p>
+<ul>
+  <li>$primary-color</li>
+  <li>$secondary-color</li>
+  <li>$complimentary-color</li>
+  <li>$body-bg</li>
+  <li>$body-font-color</li>
+</ul>
+
+<p><strong>Links</strong></p>
+<ul>
+  <li>$link-color</li>
+  <li>$link-hover-color</li>
+  <li>$link-visited-color</li>
+</ul>
+
+<p><strong>Text</strong></p>
+<ul>
+  <li>$base-font-family</li>
+  <li>$base-font-size</li>
+  <li>$small-font-size</li>
+  <li>$base-line-height</li>
+</ul>
+
+<p><strong>Header Settings</strong></p>
+<ul>
+  <li>$header-color</li>
+  <li>$header-link-color</li>
+  <li>$header-link-hover-color</li>
+  <li>$header-link-visted-color</li>
+  <li>$header-active-link-color</li>
+</ul>
+
+<p><strong>Sidebar Settings</strong></p>
+<ul>
+  <li>$sidebar-color</li>
+</ul>
+
+<p><strong>Mobile Navbar Settings</strong></p>
+<ul>
+  <li>$navbar-height</li>
+  <li>$navbar-color</li>
+  <li>$navbar-text-color</li>
+  <li>$navbar-hover-color</li>
+  <li>$navbar-active-color</li>
+  <li>$navbar-font-size</li>
+  <li>$navbar-font-family</li>
+  <li>$hamburger-icon-color</li>
+</ul>
+
+<p><strong>Socials Navbar Settings</strong></p>
+<ul>
+  <li>$socials-font-color</li>
+  <li>$socials-font-size</li>
+</ul>
+
+<p><strong>Gallery Lightbox Pop-Up</strong></p>
+<ul>
+  <li>$lightbox-background-color</li>
+  <li>$lightbox-border-color</li>
+  <li>$lightbox-description-background-color</li>
+  <li>$lightbox-description-text-color</li>
+  <li>$lightbox-caption-text-color</li>
+  <li>$lightbox-navigation-color</li>
+</ul>
+
+<p><strong>Utility</strong></p>
+<ul>
+  <li>$spacing-unit</li>
+</ul>
+
+<p><strong>Layout Settings</strong></p>
+<ul>
+  <li>$header-margin</li>
+</ul>
+
+<p><strong>Buttons</strong></p>
+<ul>
+  <li>$button-color</li>
+  <li>$button-hover</li>
+  <li>$button-text-color</li>
+</ul>
+:ET

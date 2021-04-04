@@ -1,59 +1,45 @@
-# Site Info
-title:              "Motocarota"
-description:        ""
-google_verify:      # Put your Google Verification here
-google_analytics:   # Put your Google Analytics code
+# Site settings
+title: Art of Motocarota
+email: motocarota@gmail.com
+author: Motocarota
 
-# Author Info
-author_name:        "Motocarota"
-author_email:       motocarota@gmail.com
-author_gravatar:    # Gravatar md5 hash
+keywords: motocarota, art, portfolio, artist, illustration, comics
+description: Witty description here.
 
-# Social users
-facebook_username:   Motocarota
-twitter_username:    Motocarota
-github_username:     Motocarota
-linkedin_username:   simonepoggi
-pocket_username:     by9T1AhRg6695p385fd1f1bdd0paga2f8f4E79r292I1cHI92a271V8cweDcS360
+github:
+  url: "https://motocarota.github.io/"
 
-# Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
-timezone:           Europe/Rome # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+header: images/logo.png
 
-# Site Build
-highlighter:        rouge
-#markdown:           redcarpet
-#redcarpet:
-#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
-markdown:           kramdown
+# Formspree contact Form
+contact_form: "https://formspree.io/f/motocarota@gmail.com"
+
+
+# Exclude our ruby stuff
+exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile, Gemfile.lock, Rakefile, starving-artist-jekyll-theme-*.gem]
+
+
+# Build settings
+markdown: kramdown
 kramdown:
-    input:          GFM
-sass:
-    style:          :compressed
+  input: GFM
 
-# Other Params
-include:            [ "robots.txt", "_pages" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+theme: starving-artist-jekyll-theme
+  
+# Plugins
+gems:
+  - jekyll-feed
 
-compress_html:
-    clippings:      all
-    ingore:
-        envs:       [ "test" ]
+feed:
+  path: atom.xml
+  
+# Compress our Css
+#sass:
+#    style: :compressed
 
-defaults:
-  -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+include: ['_pages']
+
+permalink: /blog/:year/:title
+
+collections:
+  - galleries

@@ -1,0 +1,12 @@
+I" <h1 id="site-wide-header-image">Site-wide Header Image</h1>
+<p>You can set the header image site-wide by adding the following code to your <code class="language-plaintext highlighter-rouge">_config.yml</code></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header: images/IMAGE-NAME.png
+</code></pre></div></div>
+
+<h2 id="per-page-header-image">Per Page Header Image</h2>
+<p>You can also specify a different header image for any giver page by adding it to the yaml frontmatter for that page:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header: /images/IMAGE-NAME.png
+</code></pre></div></div>
+
+<p>(If you notice, this page has a custom header image from the rest of the site)</p>
+:ET

@@ -1,16 +1,33 @@
-<aside class="logo">
+{% if page.header %}
+  <header role="banner" id="header">
+      <div class="site-header medium-12 columns">
+        <nav class="hide-for-small-only hide-for-ipad">
+          {% include socials.html %}
+        </nav>
+        <div class="header-logo wraptainer">
+          <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/{{ page.header }}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center"></a>
+        </div>
+        <nav class="hide-for-small-only hide-for-ipad">
+          {% include navigation.html %}
+        </nav>
+      </div>
+  </header>
+  
+{% else %}
+  <header role="banner" id="header" class="small-12 medium-3 columns">
+    <div class="site-header medium-12 columns">
+      <nav class="hide-for-small-only hide-for-ipad">
+        {% include socials.html %}
+      </nav>
+      <div class="header-logo wraptainer">
+        <a href="{{ site.github.url }}/">
+          <img src="{{ site.github.url }}/{{ site.header }}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center">
+        </a>
+      </div>
+      <nav class="hide-for-small-only hide-for-ipad">
+        {% include navigation.html %}
+      </nav>
+    </div>
+  </header>
 
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'About the Author' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Home' %}
-	{% endif %}
-
-	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="/assets/motocarota.png" class="gravatar">
-	</a>
-	<span class="logo-prompt">{{ prompt }}</span>
-
-</aside>
+{% endif %}

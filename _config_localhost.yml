@@ -1,0 +1,47 @@
+# Site settings
+title: Art of Motocarota
+email: motocarota@gmail.com
+author: Motocarota
+
+keywords: motocarota, art, portfolio, artist, illustration, comics
+description: Witty description here.
+
+github:
+  url: "http://localhost:8080"
+assets:
+  cache: false
+
+header: images/logo.png
+
+# Formspree contact Form
+contact_form: "https://formspree.io/f/motocarota@gmail.com"
+
+
+# Exclude our ruby stuff
+exclude: [.bundle, .vendor, .bin, starving-artist.gemspec, bin, vendor, Gemfile, Gemfile.lock, Rakefile, starving-artist-jekyll-theme-*.gem]
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+theme: starving-artist-jekyll-theme
+  
+# Plugins
+gems:
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+  
+# Compress our Css
+#sass:
+#    style: :compressed
+
+include: ['_pages']
+
+permalink: /blog/:year/:title
+
+collections:
+  - galleries

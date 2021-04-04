@@ -1,33 +1,16 @@
 ---
 layout: default
+sidebar: "recent_posts"
 ---
+<article class="small-12 columns">
 
-<noscript>
-	<style>
-
-		article .footnotes {
-			display: block;
-		}
-
-	</style>
-</noscript>
-
-<article>
-	<div class="center">
-		{% if page.image %}
-		<div>
-			<img src="{{ site.baseurl }}/assets/{{ page.image }}.png"/>
-		</div>
-		{% endif %}
-		<h1>{{ page.title }}</h1>
-	</div>
-
-	<div class="divider"></div>
-
-	{{ content }}
-
+    <header class="columns wraptainer">
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+    <div class="columns">
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </div>
 </article>
-
-<div class="back">
-	<a href="{{site.baseurl}}/">Back</a>
-</div>

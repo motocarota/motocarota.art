@@ -1,24 +1,25 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-{% if page.title %}
-	<title>{{ page.title }}</title>
-{% else %}
-	<title>{{ site.title }}</title>
-{% endif %}
-
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@{{ site.twitter_username }}" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
-
-<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-<link rel="icon" href="{{ site.baseurl }}/assets/favicon.png">
-<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/touch-icon.png">
-<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
-<link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
-<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
-<!-- <script src="/assets/offline-manager.js"></script> -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if site.author %}
+    <meta name="author" content="{{ site.author }}">
+  {% endif %}
+  {% capture description %}{% if page.description %}{{ page.description }}{% elsif site.description %}{{ site.description }}{%else%}{{ content | raw_content }}{% endif %}{% endcapture %}
+  <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+  {%else%}
+    <meta name="keywords" content="{{ site.keywords }}">
+  {% endif %}
+    
+  <link href="{{ site.github.url }}/css/main.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="{{ site.github.url }}{{ page.url }}">
+  <link href="{{ site.github.url }}/favicon.ico" rel="icon">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.github.url }}/atom.xml"/>
+  
+  {% include metadata.html %}
+  {% include google_analytics.html %} 
+</head>

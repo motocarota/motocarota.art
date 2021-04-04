@@ -1,20 +1,6 @@
 ---
 layout: default
+title: home
+permalink: /
 ---
-
-<section>
-	<div class="flex-grid">
-		{% for post in site.posts %}
-		<div class="flex-item">
-			<a href="{{ post.url | prepend: site.baseurl }}">
-				<div>
-					<img src="{{ site.baseurl }}/assets/{{ post.image }}.png"/>
-				</div>
-				<div class="title">
-					{{ post.title }}
-				</div>
-			</a>
-		</div>
-		{% endfor %}
-	</div>
-</section>
+<h1>Hello, world!</h1>
