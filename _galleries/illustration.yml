@@ -2,11 +2,10 @@
 name: "illustration"
 arts:
 # Column 1
-- image: "images/galleries/illustration/AvenueinSchlossKammerPark.jpg"
+- image: "images/galleries/illustration/luce.jpg"
   order: "1"
-  title: "Avenue in Schloss Kammer Park"
-  artist: "Gustav Klimt"
-  description: 
+  title: "Luce"
+  description: "Winner of 2015 edition of Albissola's drawing contest 'un mare di matite'" 
   
 - image: "images/galleries/illustration/Expectation.jpg"
   order: "2"
