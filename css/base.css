@@ -48,8 +48,6 @@ a:hover{
   margin: 0 auto; }
   
 .photo{
-  border: 3px solid #eee;
-  border-radius: 100%;
   transform: rotate(-1deg);
   -webkit-transform: rotate(-1deg);
   margin-top: -70px;
