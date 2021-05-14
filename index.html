@@ -7,149 +7,62 @@
   <meta name="keywords" content="HTML,CSS,JavaScript,React,NodeJs,Development,Web">
   <meta name="author" content="Simone Poggi">
   <link href="favicon.ico" rel="shortcut icon">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/labs.css" rel="stylesheet">
+  <link href="css/masonry.css" rel="stylesheet">
   <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
 </head>
 
-<body>
-  <div class="container">
-
-    <div class="block">
-      <img src="data:image/jpeg;base64,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"
+<body class="labs-template-default single single-labs postid-2409 logged-in admin-bar no-customize-support">
+    <div class="wrapper">
+      <img
+        src="data:image/jpeg;base64,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"
         alt="My face" class="photo">
-      <h1>Simone Poggi</h1>
-      <h2><i class="an">Passionate</i> Freelance IT Consultant</h2>
-    </div>
-
-    <div class="content">
-      <p>I create delightful, modern and robust applications, focusing on user needs and immersive experiences.</p>
-      <p>I also love delivering well structured high quality code, with an eye on performance and security.</p>
-      <div>
-        <h3>Experienced in:</h3>
-        <ul>
-          <li>Modern Javascript, TDD, Functional Programming</li>
-          <li>React, Redux, Svelte</li>
-          <li>Code review, Team management, Mentoring</li>
-          <li>Performance, Code Quality, Accessibility</li>
-          <li>Git, Lodash, Tape, Emmet</li>
-          <li>Linux, Zsh, Node.js, Scripting</li>
-          <li>VSCode, Vim, Chrome Dev Tools</li>
-        </ul>
-      </div>
-      <div class="meta">
-        <div>
-          <h3>Education:</h3>
-          <p>
-            University of Genoa
-            <br> PhD in Computer Science
-            <br>(2009)
-          </p>
+      <h1 class="title">Simone Poggi</h1>
+      <h2 class="desc an">Comic author and Illustrator</h2>
+      <div class="masonry gutterless">
+        <div class="brick">
+          <img src="images/cherry-plant.jpg" alt="Cherry plant" title="Cherry plant">
         </div>
-        <div>
-          <h3>Currently employed at:</h3>
-          <p>
-            <a target="_blank" href="https://www.bitfinex.com">Bitfinex</a> (fulltime) as<br>
-            Frontend Lead Developer<br>
-            [15 team members / 20+ active projects]
-          </p>
+        <div class="brick">
+          <img src="images/oranges-pomegranates.jpg" alt="Oranges and Pomegranates" title="Oranges and Pomegranates">
         </div>
-      </div>
-    </div>
-
-    <div class="block links">
-      <a target="_blank" href="https://twitter.com/motocarota">
-        Twitter
-      </a>
-      <a target="_blank" href="https://stackoverflow.com/cv/simone-poggi">
-        StackOverflow
-      </a>
-      <a target="_blank" href="https://github.com/motocarota">
-        GitHub
-      </a>
-      <a target="_blank" href="https://www.linkedin.com/in/simonepoggi">
-        LinkedIn
-      </a>
+        <div class="brick">
+          <img src="images/strawberry.jpg" alt="Strawberry" title="Strawberry">
+        </div>
+        <div class="brick">
+          <img src="images/blueberries.jpg" alt="Blueberries" title="Blueberries">
+        </div>
+        <div class="brick">
+          <img src="images/pears.jpg" alt="Pears" title="Pears">
+        </div>
+        <div class="brick">
+          <img src="images/easter-eggs.jpg" alt="Easter-eggs" title="Easter-eggs">
+        </div>
+        <div class="brick">
+          <img src="images/lemons.jpg" alt="Lemons" title="Lemons">
+        </div>
+        <div class="brick">
+          <img src="images/cherries.jpg" alt="Cherries" title="Cherries">
+        </div>
+        <div class="brick">
+          <img src="images/grapes.jpg" alt="Grapes" title="Grapes">
+        </div>
+      </div><!-- .masonry -->
+      
+      <nav class="block links">
+        <a target="_blank" href="https://instagr.am/motocarota">
+          Instagram
+        </a>
+        <a target="_blank" href="https://twitter.com/motocarota">
+          Twitter
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/simonepoggi">
+          LinkedIn
+        </a>
+      </nav>
     </div>
   </div>
 </body>
 
 </html>
-<style>
-body {
-  background-image: -webkit-linear-gradient(left, #720e9e 0, #dd4b39 100%);
-  background-image: -o-linear-gradient(left, #720e9e 0, #dd4b39 100%);
-  background-image: linear-gradient(to right, #720e9e 0, #dd4b39 100%);
-  background-repeat: repeat-x;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 26px;}
-
-body, body * {
-  -webkit-font-smoothing: antialiased; }
-
-.container {
-  max-width: 600px;
-  background: #fff;
-  margin: 40px auto;
-  border-radius: 6px;
-  box-shadow: 0px 3px 6px; }
-  
-.block {
-  padding: 30px 40px 24px;
-  text-align: center; }
-    
-.links>a {
-  margin: 0 1rem; }
-
-.content {
-  padding: 1rem 2rem;
-  background: #efefef; }
-
-h2 {
-  color: #39A0DB; }
-
-a {
-  color: #269;
-  text-decoration: none; }
-
-a:hover{
-  color: #1d5884;
-  text-decoration: underline; }
-
-.meta{
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-  margin: 0 auto; }
-  
-.photo{
-  border: 3px solid #eee;
-  border-radius: 100%;
-  transform: rotate(-1deg);
-  -webkit-transform: rotate(-1deg);
-  margin-top: -70px;
-  -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -o-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;}
-
-.photo:hover{
-  transform: rotate(-360deg)}
-
-@keyframes c {
-  0% {
-    color: #39A0DB; }
-  28.6% {
-    color: violet; }
-  57.2% {
-    color: orange; }
-  85.8% {
-    color: indigo; }
-  100% {
-    color: #39A0DB; }
-}
-
-.an {
-  animation: c 10s linear infinite; }
-</style>
