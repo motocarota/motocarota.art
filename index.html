@@ -8,9 +8,9 @@
   <meta name="author" content="Simone Poggi">
   <link href="favicon.ico" rel="shortcut icon">
   <link href="css/base.css" rel="stylesheet">
-  <link href="css/labs.css" rel="stylesheet">
-  <link href="css/masonry.css" rel="stylesheet">
   <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -22,35 +22,22 @@
         <h1>Simone Poggi</h1>
         <h2>Comic author, Illustrator and <a href="http://www.simone-poggi.com" target="_blank" class="an">Nerd</a></h2>
       </div>
-      <div class="masonry gutterless content">
-        <div class="brick">
-          <img src="images/cherry-plant.jpg" alt="Cherry plant" title="Cherry plant">
+      
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="images/blueberries.jpg" alt="Luce">
+            </li>
+            <li class="splide__slide">
+              <img src="images/cherries.jpg" alt="Luce">
+            </li>
+            <li class="splide__slide">
+              <img src="images/lemons.jpg" alt="Luce">
+            </li>
+          </ul>
         </div>
-        <div class="brick">
-          <img src="images/oranges-pomegranates.jpg" alt="Oranges and Pomegranates" title="Oranges and Pomegranates">
-        </div>
-        <div class="brick">
-          <img src="images/strawberry.jpg" alt="Strawberry" title="Strawberry">
-        </div>
-        <div class="brick">
-          <img src="images/blueberries.jpg" alt="Blueberries" title="Blueberries">
-        </div>
-        <div class="brick">
-          <img src="images/pears.jpg" alt="Pears" title="Pears">
-        </div>
-        <div class="brick">
-          <img src="images/easter-eggs.jpg" alt="Easter-eggs" title="Easter-eggs">
-        </div>
-        <div class="brick">
-          <img src="images/lemons.jpg" alt="Lemons" title="Lemons">
-        </div>
-        <div class="brick">
-          <img src="images/cherries.jpg" alt="Cherries" title="Cherries">
-        </div>
-        <div class="brick">
-          <img src="images/grapes.jpg" alt="Grapes" title="Grapes">
-        </div>
-      </div><!-- .masonry -->
+      </div>
       
       <nav class="block links">
         <a target="_blank" href="https://instagr.am/motocarota">
@@ -66,5 +53,15 @@
     </div>
   </div>
 </body>
-
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.splide', {
+      type: 'loop',
+      padding: {
+        right: '5rem',
+        left: '5rem',
+      }
+    }).mount();
+  });
+</script>
 </html>
