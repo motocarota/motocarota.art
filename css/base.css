@@ -9,7 +9,7 @@ body {
 body, body * {
   -webkit-font-smoothing: antialiased; }
 
-.container {
+.my-cont {
   max-width: 600px;
   background: #fff;
   margin: 40px auto;
@@ -24,7 +24,7 @@ body, body * {
   margin: 0 1rem; }
 
 .content {
-  padding: 1rem 2rem;
+  padding: 1rem;
   background: #efefef; }
 
 h2 {
