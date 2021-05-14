@@ -82,3 +82,11 @@ a:hover{
   margin-right: auto;
   max-width: 1080px;
 }
+
+.splide__slide {
+  text-align: center;
+  margin: 0 auto;
+}
+.splide__slide img {
+  height: 750px;
+}
