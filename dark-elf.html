@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+  <title>Simone Poggi - Artist and Developer </title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Simone Poggi - comic artist, illustrator and nerd">
+  <meta name="keywords" content="HTML,CSS,JavaScript,React,NodeJs,Development,Web">
+  <meta name="author" content="Simone Poggi">
+  <link href="favicon.png" rel="shortcut icon">
+  <link href="css/base.css" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+</head>
+
+<body>
+    <div class="wrapper my-cont">
+      <div class="block">
+        <img
+          src="images/motocarota.png"
+          alt="My face" class="photo">
+        <h1>L'Elfo Oscuro (ANTEPRIMA)</h1>
+        <h2> di Simone Poggi</h2>
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="dark-elf/Page-01.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-02.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-03.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-04.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-05.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-06.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-07.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-08.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-09.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-10.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-11.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-12.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-13.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-14.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-15.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-16.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-17.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-18.jpg"></li>
+            <li class="splide__slide"><img src="dark-elf/Page-19.jpg"></li>
+          </ul>
+        </div>
+      </div>
+      
+      <nav class="block links">
+        <a target="_blank" href="https://instagr.am/motocarota">
+          Instagram
+        </a>
+        <a target="_blank" href="https://twitter.com/motocarota">
+          Twitter
+        </a>
+        <a target="_blank" href="https://pinterest.it/motocarota">
+          Pinterest
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/simonepoggi">
+          LinkedIn
+        </a>
+      </nav>
+    </div>
+  </div>
+</body>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.splide', {
+      // type: 'loop',
+    }).mount();
+  });
+</script>
+<style type="text/css">
+  .splide__slide img {
+    height: 100vh;
+  }
+</style>
+</html>
