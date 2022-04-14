@@ -41,7 +41,7 @@ a:hover{
   justify-content: space-around;
   margin: 0 auto; }
   
-.photo{
+.logo{
   width: 100px;
   transform: rotate(-1deg);
   -webkit-transform: rotate(-1deg);
@@ -50,7 +50,7 @@ a:hover{
   -o-transition: 1s ease-in-out;
   transition: 1s ease-in-out;}
 
-.photo:hover{
+.logo:hover{
   transform: rotate(-360deg)}
 
 @keyframes c {
@@ -84,6 +84,10 @@ a:hover{
   width: 100%;
   max-width: 850px;
 }
+.photo {
+  max-width: 500px;
+}
+
 ul.splide__list {
   height: auto;
 }
