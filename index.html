@@ -22,57 +22,87 @@
         <h1>Simone Poggi</h1>
         <h2>Digital comic artist, Illustrator</h2>
       </div>
-      
-      <div class="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <img src="images/luce.jpg" alt="Luce">
-              <h3>Luce</h3>
-              <p>Winner of the "Un mare di matite" 2015 edition contest</p>
-            </li>
-            <li class="splide__slide">
-              <img src="images/demon.jpg" alt="Red demon">
-              <h3>Red demon prince</h3>
-            </li>
-            <li class="splide__slide">
-              <img src="images/filosofo.jpg" alt="philopher">
-              <h3>Filosofo</h3>
-            </li>
-            <li class="splide__slide">
-              <img src="images/torpedo.jpg" alt="torpedo">
-              <h3>Torpedo tribute</h3>
-            </li>
-            <li class="splide__slide">
-              <img src="images/piccolo.jpg" alt="squiddy + dragonball">
-              <h3>Dragonball meets Spongebob</h3>
-            </li>
-            <li class="splide__slide">
-              <img src="images/skate.jpg" alt="skate">
-              <h3>Skate</h3>
-            </li>
-            <li class="splide__slide">
-              <img src="images/jojo.jpg" alt="jojo's bizarre adventures">
-              <h3>Jojo's bizarre adventures</h3>
-            </li>
-          </ul>
+      <div class="block transition">
+        <div onclick="toggle('portfolio')" class="toggle">
+          Portfolio
         </div>
+
+        <div class="splide" id="portfolio">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="images/luce.jpg" alt="Luce">
+                <h3>Luce</h3>
+                <p>Winner of the "Un mare di matite" 2015 edition contest</p>
+              </li>
+              <li class="splide__slide">
+                <img src="images/demon.jpg" alt="Red demon">
+                <h3>Red demon prince</h3>
+              </li>
+              <li class="splide__slide">
+                <img src="images/filosofo.jpg" alt="philopher">
+                <h3>Filosofo</h3>
+              </li>
+              <li class="splide__slide">
+                <img src="images/torpedo.jpg" alt="torpedo">
+                <h3>Torpedo tribute</h3>
+              </li>
+              <li class="splide__slide">
+                <img src="images/piccolo.jpg" alt="squiddy + dragonball">
+                <h3>Dragonball meets Spongebob</h3>
+              </li>
+              <li class="splide__slide">
+                <img src="images/skate.jpg" alt="skate">
+                <h3>Skate</h3>
+              </li>
+              <li class="splide__slide">
+                <img src="images/jojo.jpg" alt="jojo's bizarre adventures">
+                <h3>Jojo's bizarre adventures</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+        <div onclick="toggle('about')" class="toggle">
+          About me
+        </div>
+        <div id="about" class="hide">
+          <p>I'm an italian freelance digital Illustrator and comic artist, dad and web developer.</p>
+        </div>
+
+        <div onclick="toggle('projects')" class="toggle">
+          Projects
+        </div>
+        <div id="projects" class="hide">
+          <p>some text here.</p>
+        </div>
+
+        <div class="toggle">
+          Contact me
+        </div>
+        <p>If you have a cool project or just want to say hi, don't hesitate to reach me out.</p>
+        <nav class="links">
+          <a target="_blank" href="https://instagram.com/motocarota">
+            Instagram
+          </a>
+          <a target="_blank" href="https://twitter.com/motocarota">
+            Twitter
+          </a>
+          <a target="_blank" href="https://pinterest.it/motocarota">
+            Pinterest
+          </a>
+          <a target="_blank" href="https://www.artstation.com/motocarota">
+            ArtStation
+          </a>
+          <a target="_blank" href="https://t.me/motocarota">
+            Telegram
+          </a>
+          <a target="_blank" href="mailto:motocarota@gmail.com">
+            Email
+          </a>
+        </nav>
       </div>
       
-      <nav class="block links">
-        <a target="_blank" href="https://instagr.am/motocarota">
-          Instagram
-        </a>
-        <a target="_blank" href="https://twitter.com/motocarota">
-          Twitter
-        </a>
-        <a target="_blank" href="https://pinterest.it/motocarota">
-          Pinterest
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/simonepoggi">
-          LinkedIn
-        </a>
-      </nav>
     </div>
   </div>
 </body>
@@ -83,4 +113,45 @@
     }).mount();
   });
 </script>
+<script>
+  let open = 0;
+  const list = [
+    'portfolio', 'about', 'projects'
+  ];
+
+  function addClass(id, c) {
+    console.log('add', id, c)
+    const el = document.getElementById(id);
+    if (el.className.indexOf(c) == -1) {
+      console.log('   not found, adding')
+      el.className += " " + c;
+    }
+  }
+
+  function removeClass(id, c) {
+    console.log('remove', id, c)
+    const el = document.getElementById(id);
+    if (el.className.indexOf(c) !== -1) {
+      console.log('   found, removing')
+      el.className = el.className.replace(c, "")
+    }
+  }
+
+  function toggle(id) {
+    console.log('toggle ', {id})
+    if (open === id) {
+      console.log('already open', {open, id})
+      return;
+    }
+
+    list.map(
+      el => {
+        (id === el)
+          ? removeClass(el, "hide")
+          : addClass(el, "hide");
+      }
+    )
+    open = id;
+  }
+  </script>
 </html>
