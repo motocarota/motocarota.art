@@ -78,6 +78,8 @@ a:hover{
 .splide__slide {
   text-align: center;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 .splide__slide img {
   /* height: 750px; */
@@ -108,4 +110,8 @@ li img {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.about {
+  margin-top: 3em;
 }
