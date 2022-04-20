@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
   line-height: 26px;
+  margin: 0 !important;
 }
 
 .block {
@@ -114,4 +115,28 @@ li img {
 
 .about {
   margin-top: 3em;
+}
+
+footer nav {
+  background-color: #FF9900;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+footer nav a {
+  color: white;
+  margin: 3rem auto;
+}
+
+.link-ig, .link-tw {
+  background-image: url('../images/_social.png');
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+}
+.link-ig {
+  background-position: 0px 0px;
+}
+.link-tw {
+  background-position: 0px 80px;
 }
