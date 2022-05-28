@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motocarota.art</title>
+    <link>https://motocarota.art/</link>
+    <description>Recent content on Motocarota.art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://motocarota.art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://motocarota.art/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://motocarota.art/about/</guid>
+      <description>My name is Simone Poggi, and I&amp;rsquo;m the author of Another One Quest to Dust a medieval sword-and-sorcery journey through our endless imaginary travels in the world of Dungeons and Dragons.
+I work as freelance and my skills range from illustration to comic arts and web development.
+While not bashing my head against computer screens I spend my time with my wife, my cat and two beautiful nasty kids, in Italy.</description>
+    </item>
+    
+    <item>
+      <title>Commissions</title>
+      <link>https://motocarota.art/commissions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://motocarota.art/commissions/</guid>
+      <description>Bust     Base Price Est. Time     Sketch Euro 100 1 hour   Line art Euro 120 3 hours   Color Euro 160 4 hours    Full body     Base Price Est. Time     Sketch Euro 150 3 hours   Line art Euro 180 5 hours   Color Euro 200 6 hours    Extras     Price change     Elaborate Tattoos/Heraldry +25% of base price   Background +100% of base price   Complex/Multiple Weapons/Props +25% of base price   Feathered/Bat/Bug/Bone Wings +33% of base price   Additional Characters/Monsters +100% of base price for each   Additional Per/Familiar +50% of base price for each   Use for Resale +100% of total price   Creation of Derivative Works +100% of total price   Copyright Share +100% of total price   Rush Job +100% of total price    If you are interested please get in touch with me!</description>
+    </item>
+    
+    <item>
+      <title>Contact me</title>
+      <link>https://motocarota.art/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://motocarota.art/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
