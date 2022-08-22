@@ -1,0 +1,32 @@
+{
+  "name": "motocarota.art",
+  "version": "1.0.0",
+  "description": "My portfolio site.",
+  "main": "index.js",
+  "repository": "",
+  "author": "Motocarota",
+  "license": "MIT",
+  "scripts": {
+    "start": "hugo server --disableFastRender",
+    "dev": "hugo serve -gc -d docs",
+    "start-examplesite": "hugo server -s exampleSite --themesDir=../.. --disableFastRender",
+    "build": "NODE_ENV=production hugo --minify -d ../dist",
+    "deploy": "./deploy.sh"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "postcss-loader": "^7.0.0",
+    "tailwindcss": "^2.1.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

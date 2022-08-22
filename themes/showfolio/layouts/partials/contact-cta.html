@@ -1,0 +1,25 @@
+<section class="my-20 mx-auto">
+  <div class="text-2xl font-bold text-center">
+    <h1 class="my-10">Get in touch with me</h1>
+    <a
+      href="mailto:{{.Site.Params.authorEmail}}"
+      rel="noopener noreferrer"
+      target="_blank"
+      class="m-10 px-6 py-4 rounded-full font-semibold text-lg bg-black text-white hover:bg-gray-800 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
+    >
+      Email ✉️
+    </a>
+    
+    {{ with .Site.Params.homepage.social.telegram }}
+      <a
+        href="{{.}}"
+        target="_blank"
+        rel="noopener"
+        aria-label="Telegram"
+        class="m-10 px-6 py-4 rounded-full font-semibold text-lg bg-black text-white hover:bg-gray-800 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
+      >
+        Telegram 📱 
+      </a>
+    {{ end }}
+  </div>
+</section>

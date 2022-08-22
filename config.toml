@@ -1,0 +1,98 @@
+theme = "showfolio"
+languageCode = "en-us"
+baseurl = "https://motocarota.art"
+title = "Motocarota.art"
+
+[params]
+  name = "Motocarota"
+  description = "Comic Artist and Illustrator."
+  author = "Simone Poggi"
+  authorEmail = "motocarota@gmail.com"
+  authorImage = "/motocarota-logo.png"
+  autoDarkMode = true
+
+  copyright = "All images are Copyright ©2022 Simone Poggi, All Rights Reserved"
+  favicon = "favicon.ico"
+
+[params.homepage]
+  title = "Hey 👋 I'm Motocarota"
+  tagline = "Comic Artist and Illustrator"
+  description = ""
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/JeB9XD"
+  img = "/motocarota-aarakocra.jpg"
+  txt = "view in Artstation"
+  
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-stu.jpeg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-torpedo-tribute.jpg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-demon.jpg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-piccolo.jpg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-luce.jpg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-jojo.jpg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-filosofo.jpg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-skate.jpg"
+  txt = "view in Artstation"
+
+[[params.homepage.gallery]]
+  url = "https://www.artstation.com/artwork/r9dAoL"
+  img = "/motocarota-dark-elf.jpg"
+  txt = "view in Artstation"
+
+[params.homepage.resume]
+  skills = ["Procreate", "Clip Studio Paint", "Pencil & Traditional Ink"]
+
+[[params.homepage.resume.courses]]
+  name = "Universita' degli studi di Genova"
+  provider = "Computer Science"
+  duration = "Sept 2003 - Nov 2009"
+
+[[params.homepage.resume.courses]]
+  name = "Scuola Chiavarese del Fumetto"
+  duration = "Oct 2011 - Jan 2015"
+
+[params.homepage.social]
+  twitter = "https://twitter.com/motocarota"
+  instagram = "https://instagram.com/motocarota"
+  github = "https://github.com/motocarota"
+  reddit = "https://reddit.com/u/motocarota"
+  artstation = "https://artstation.com/motocarota"
+  telegram = "https://t.me/motocarota"
+
+[build]
+  writeStats = false
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
