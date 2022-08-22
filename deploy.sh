@@ -5,6 +5,6 @@
 npm run build
 
 # deploy the static files
-git add .
-git commit -m "update"
+git add docs
+git commit -m "update docs"
 git push
