@@ -5,7 +5,7 @@ title = "Motocarota.art"
 
 [params]
   name = "Motocarota"
-  description = "Comic Artist and Illustrator."
+  description = "Comic Artist / Illustrator."
   author = "Simone Poggi"
   authorEmail = "motocarota@gmail.com"
   authorImage = "/motocarota-logo.png"
