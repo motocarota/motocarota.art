@@ -3,12 +3,6 @@ TODO
 
 - rivedere la CT
 
-- portare i sorgenti del sito su github 
-  al momento su gh c'e' solo la versione compilata (dist folder)
+- implementare la pagina comics
 
-  potrei cambiare dist in docs
-  pubblicare docs su gh come target di gh pages
-
-- impostare gh action to deploy automatically
-  https://gohugo.io/hosting-and-deployment/hosting-on-github/
-
+- caricare i primi fumetti (the descent, not today)
