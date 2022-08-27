@@ -74,7 +74,7 @@ title = "Motocarota.art"
 
 [[params.homepage.resume.courses]]
   name = "Universita' degli studi di Genova"
-  provider = "Computer Science"
+  provider = "Degree in Computer Science"
   duration = "Sept 2003 - Nov 2009"
 
 [[params.homepage.resume.courses]]
