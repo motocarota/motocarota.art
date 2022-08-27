@@ -6,7 +6,7 @@ function viewer(pages) {
       return;
     }
     id++;
-    setImage();
+    render();
   }
 
   function prev() {
@@ -14,14 +14,14 @@ function viewer(pages) {
       return;
     }
     id--;
-    setImage();
+    render();
   }
 
-  function setImage() {
+  function render() {
     const el = document.getElementById('image');
     el.src = pages[id];
   }
-  setImage();
+  render();
 
   return {
     prev,
