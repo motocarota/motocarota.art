@@ -1,0 +1,22 @@
+<h1>{{ .Title }}</h1>
+<div style="display: flex; width: 90vw; margin: auto; justify-content: space-between;">
+  <button onclick="v.prev()"> - </button>
+  <img id="image" src="" style="height: 98vh">
+  <button onclick="v.next()"> + </button>
+</div>
+{{ .Content }}
+
+<script src="/js/gallery.js"></script>
+<script>
+  
+  {{ with .Resources.ByType "image" }}
+  const pages = [
+    {{ range . }}
+      "{{ .RelPermalink }}",
+    {{ end }}
+  ];
+  {{ end }}
+
+  const v = viewer(pages);
+  v.render('app');
+</script>
