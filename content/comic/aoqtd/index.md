@@ -1,12 +1,7 @@
 ---
-title: Hello world
+title: Another One Quest to Dust
 date: 2016-02-01 10:00:00
 ---
-This is my first blog post
+capitolo 1: attacco agli orchi
 
-papapappapapa
-ss
-
-
-
-popopopoopopop
+{{< comic >}}

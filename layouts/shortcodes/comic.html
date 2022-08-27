@@ -1,0 +1,19 @@
+<div style="display: flex; margin: auto; justify-content: space-between;">
+  <button onclick="v.prev()"> - </button>
+  <img id="image" src="" style="height: 98vh" />
+  <button onclick="v.next()"> + </button>
+</div>
+
+<script src="/js/gallery.js"></script>
+<script>
+
+  {{ with $.Page.Resources.ByType "image" }}
+  const pages = [
+    {{ range . }}
+  "{{ .RelPermalink }}",
+    {{ end }}
+  ];
+  {{ end }}
+
+  const v = viewer(pages);
+</script>
