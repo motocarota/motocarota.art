@@ -22,5 +22,9 @@ module.exports = {
     require("autoprefixer")({
       path: [themeDir],
     }),
+    require("@fullhuman/postcss-purgecss")({
+      content: ['./**/*.html']
+    }),
+    require("postcss-minify"),
   ],
 };
