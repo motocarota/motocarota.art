@@ -8,13 +8,14 @@
 <script src="/js/gallery.js"></script>
 <script>
 
-  {{ with $.Page.Resources.ByType "image" }}
   const pages = [
+  {{ with ($.Page.Resources.Match "pages/*") }}
     {{ range . }}
-  "{{ .RelPermalink }}",
+    "{{ .RelPermalink }}",
     {{ end }}
-  ];
   {{ end }}
+    "/thanks-for-watching.jpg",
+  ];
 
   const v = viewer({ pages, isDouble: true });
 </script>

@@ -1,7 +1,8 @@
-{{ with $.Page.Resources.ByType "image" }}
+{{ with $.Page.Resources.Match "pages/*" }}
 <div class="Image">
   {{ range . }}
   <img src="{{ .RelPermalink }}" loading="lazy" alt="{{ .Name }}" />
   {{ end }}
+  <img src="/thanks-for-watching.jpg" loading="lazy" alt="thanks for watching" />
 </div>
 {{ end }}
