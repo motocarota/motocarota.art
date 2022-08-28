@@ -1,0 +1,7 @@
+{{ with $.Page.Resources.ByType "image" }}
+<div class="Image">
+  {{ range . }}
+  <img src="{{ .RelPermalink }}" loading="lazy" alt="{{ .Name }}" />
+  {{ end }}
+</div>
+{{ end }}
