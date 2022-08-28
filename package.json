@@ -7,7 +7,7 @@
   "author": "Motocarota",
   "license": "MIT",
   "scripts": {
-    "dev": "hugo serve --disableFastRender -d dev-docs",
+    "dev": "rm -rf dev-docs && hugo serve --disableFastRender -d dev-docs",
     "build": "NODE_ENV=production hugo --minify -d docs",
     "deploy": "./deploy.sh"
   },
