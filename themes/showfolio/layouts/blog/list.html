@@ -16,7 +16,7 @@
         {{ .Params.date.Format "January 2, 2006" }}
       </p>
       <div class="font-light text-gray-800 dark:text-gray-200">
-        {{ .Summary }}
+        {{ .Summary | safeHTML }}
       </div>
     </a>
     {{ end -}}
