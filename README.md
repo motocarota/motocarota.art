@@ -8,12 +8,18 @@ I have prepared the `npm run deploy` command to do so.
 
 # development
 
+```
   npm run dev
+```
 
 # build
 
+```
   npm run build
+```
 
 # deploy
 
+```
   npm run deploy
+```
