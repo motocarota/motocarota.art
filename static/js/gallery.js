@@ -68,8 +68,8 @@ function viewer({ pages, double }) {
     isDouble = !isDouble;
     // update page index
     id = (isDouble)
-      ? Math.floor(id/2)
-      : id*2;
+      ? Math.floor(id / 2)
+      : id * 2;
     // change page list data structure
     pageList = (isDouble)
       ? toDouble(pages)
