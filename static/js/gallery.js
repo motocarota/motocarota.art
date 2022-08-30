@@ -103,6 +103,9 @@ function viewer({ pages, double }) {
         case 'ArrowRight': {
           return next();
         }
+        case 't': {
+          return toggleDouble();
+        }
         default: {
           return;
         }
