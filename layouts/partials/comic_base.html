@@ -1,0 +1,17 @@
+<div id="container">
+  <div class="flex">
+    <button class="flex-1" onclick="v.prev()"> - </button>
+    <button class="flex-1" onclick="v.toggleDouble()"> toggle </button>
+    <select class="border flex-1 px-4 rounded" id="selector" onchange="v.goto(value)"></select>
+    <button class="flex-1" onclick="v.next()"> + </button>
+  </div>
+  <div class="flex justify-center">
+    <img id="image_0" src="" class="comic-page" />
+    <img id="image_1" src="" class="comic-page" onerror="this.style.display='none'" />
+  </div>
+  <div class="w3-light-grey">
+    <div class="w3-blue" style="width:75%"></div>
+  </div>
+</div>
+
+<script src="/js/gallery.js"></script>

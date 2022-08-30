@@ -1,10 +1,5 @@
-<div style="display: flex; margin: auto; justify-content: space-between;">
-  <button onclick="v.prev()"> - </button>
-  <img id="image" src="" alt="page" class="comic-page" />
-  <button onclick="v.next()"> + </button>
-</div>
+{{ partial "comic_base.html" . }}
 
-<script src="/js/gallery.js"></script>
 <script>
   const pages = [
   {{ with ($.Page.Resources.Match "pages/*") }}

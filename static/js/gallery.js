@@ -1,8 +1,16 @@
-function viewer({ pages, isDouble }) {
+function viewer({ pages, double }) {
   let id = 0;
-  const pageList = (isDouble)
+  let isDouble = double;
+  let pageList = (isDouble)
     ? toDouble(pages)
     : pages;
+
+  const REF = {
+    container: document.getElementById('container'),
+    selector: document.getElementById('selector'),
+    page_0: document.getElementById('image_0'),
+    page_1: document.getElementById('image_1'),
+  }
 
   function toDouble(arr) {
     let res = [];
@@ -22,33 +30,78 @@ function viewer({ pages, isDouble }) {
     if (id >= pageList.length - 1) {
       return;
     }
-    id++;
-    render();
+    goto(id + 1);
   }
 
   function prev() {
     if (id <= 0) {
       return;
     }
-    id--;
-    render();
+    goto(id - 1);
   }
 
-  function render() {
+  function goto(dest) {
+    id = dest;
+    updatePage();
+    REF.selector.value = dest;
+  }
+
+  function updatePage() {
+    REF.page_1.style.display = (isDouble) 
+      ? "block"
+      : "none";
+
     if (isDouble) {
-      const el_0 = document.getElementById('image_0');
-      const el_1 = document.getElementById('image_1');
-      el_0.src = pageList[id][0];
-      el_1.src = pageList[id][1];
+      const [first, second] = pageList[id];
+      REF.page_0.src = first;
+      REF.page_1.src = second;
     } else {
-      const el = document.getElementById('image');
-      el.src = pageList[id];
+      REF.page_0.src = pageList[id];
     }
   }
-  render();
 
+  function toggleDouble() {
+    // invert the value
+    isDouble = !isDouble;
+    // update page index
+    id = (isDouble)
+      ? Math.floor(id/2)
+      : id*2;
+    // change page list data structure
+    pageList = (isDouble)
+      ? toDouble(pages)
+      : pages;
+
+    // adds fullscreen class
+    if (isDouble) {
+      REF.container.classList.add('double');
+    } else {
+      REF.container.classList.remove('double');
+    }
+
+    // refresh the page
+    init();
+  }
+
+  function updateSelector() {
+    const options = pageList.map(
+      (p, index) => `<option value="${index}"> pagina ${index} </option>`
+    )
+    REF.selector.innerHTML = options;
+  }
+  
+  function init () {
+
+    updatePage();
+    updateSelector();
+  }
+
+  init();
+  
   return {
     prev,
     next,
+    goto,
+    toggleDouble,
   }
 }

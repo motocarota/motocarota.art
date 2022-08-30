@@ -87,3 +87,12 @@ img {
 .comic-page {
   max-height: 98vh;
 }
+
+#container button {
+  border-width: 1px;
+  border-radius: 0.25rem;
+  border-color: rgba(209, 213, 219, 1);
+  background-color: rgba(229, 231, 235, 1);
+  margin: 2px 4px;
+  max-width: 90px;
+}
