@@ -3,15 +3,17 @@
   <h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
   <div class="text-gray-600">{{ .Content }}</div>
 
-  <div class="flex">
+  <div class="flex flex-wrap justify-center">
     {{ range .Data.Pages -}}
-    <a class="block m-4 my-6 p-4 rounded shadow-md" href="{{ .RelPermalink }}">
+    <a class="block m-4 my-6 p-4 rounded shadow-md max-w-sm" href="{{ .RelPermalink }}">
       {{ $img := (.Resources.ByType "image").GetMatch "featured*" }}
 
       {{ $title := .Params.title }}
-      {{ with $img }}
-      <img class="rounded max-w-xs m-4" src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" />
-      {{ end }}
+      <div style="height: 340px;" class="flex flex-col justify-center">
+        {{ with $img }}
+        <img class="rounded max-w-xs m-4" height="320px" src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" />
+        {{ end }}
+      </div>
       <h2 class="text-xl font-semibold mb-1">{{ $title }}</h2>
       <p class="font-light mb-2 text-gray-500 text-sm">
         {{ .Params.date.Format "January 2, 2006" }}
