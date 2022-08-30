@@ -43,11 +43,13 @@ function viewer({ pages, double }) {
 
   function goto(dest) {
     // checks if dest is valid first, sets default otherwise
-    id = (pageList[id])
-      ? dest
+    const nextId = Number.parseInt(dest, 10);
+    id = (pageList[nextId])
+      ? nextId
       : 0;
     updatePage();
-    REF.selector.value = dest;
+    // updates selector value
+    REF.selector.value = nextId;
     // scroll to show the page element
     REF.page_0.scrollIntoView();
   }

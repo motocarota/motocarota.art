@@ -85,7 +85,9 @@ img {
 }
 
 .comic-page {
+  height: fit-content;
   max-height: 98vh;
+  margin: 1px;
 }
 
 #container button {
