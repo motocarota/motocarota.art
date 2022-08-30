@@ -1,9 +1,18 @@
 <div id="container">
   <div class="flex">
-    <button class="flex-1" onclick="v.prev()"> - </button>
-    <button class="flex-1" onclick="v.toggleDouble()"> toggle </button>
+    <button class="flex-1" onclick="v.prev()">
+      <i class="fas fa-arrow-left"></i>
+      Prev
+    </button>
+    <button class="flex-1" onclick="v.toggleDouble()">
+      <i class="fas fa-book-open"></i>
+      Toggle
+    </button>
     <select class="border flex-1 px-4 rounded" id="selector" onchange="v.goto(value)"></select>
-    <button class="flex-1" onclick="v.next()"> + </button>
+    <button class="flex-1" onclick="v.next()">
+      <i class="fas fa-arrow-right"></i>
+      Next
+    </button>
   </div>
   <div class="flex justify-center">
     <img id="image_0" src="" class="comic-page" />
