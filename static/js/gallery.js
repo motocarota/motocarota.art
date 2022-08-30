@@ -42,7 +42,10 @@ function viewer({ pages, double }) {
   }
 
   function goto(dest) {
-    id = dest;
+    // checks if dest is valid first, sets default otherwise
+    id = (pageList[id])
+      ? dest
+      : 0;
     updatePage();
     REF.selector.value = dest;
     // scroll to show the page element
@@ -55,9 +58,9 @@ function viewer({ pages, double }) {
       : "none";
 
     if (isDouble) {
-      const [first, second] = pageList[id];
-      REF.page_0.src = first;
-      REF.page_1.src = second;
+      const p = pageList[id] || [];
+      REF.page_0.src = p[0];
+      REF.page_1.src = p[1];
     } else {
       REF.page_0.src = pageList[id];
     }
