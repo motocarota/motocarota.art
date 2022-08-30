@@ -119,10 +119,10 @@ function viewer({ pages, double }) {
   function init () {
     updatePage();
     updateSelector();
-    bindEventsListeners();
   }
-
+  
   init();
+  bindEventsListeners();
   
   return {
     prev,
