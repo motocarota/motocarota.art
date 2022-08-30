@@ -6,6 +6,7 @@ function viewer({ pages, double }) {
     : pages;
 
   const REF = {
+    body: document.getElementsByTagName('body')[0],
     container: document.getElementById('container'),
     selector: document.getElementById('selector'),
     page_0: document.getElementById('image_0'),
@@ -44,6 +45,8 @@ function viewer({ pages, double }) {
     id = dest;
     updatePage();
     REF.selector.value = dest;
+    // scroll to show the page element
+    REF.page_0.scrollIntoView();
   }
 
   function updatePage() {
@@ -89,11 +92,28 @@ function viewer({ pages, double }) {
     )
     REF.selector.innerHTML = options;
   }
+
+  function bindEventsListeners() {
+    REF.body.onkeyup = function(evt) {
+      evt = evt || window.event;
+      switch (evt.key) {
+        case 'ArrowLeft': {
+          return prev();
+        }
+        case 'ArrowRight': {
+          return next();
+        }
+        default: {
+          return;
+        }
+      }
+    };
+  }
   
   function init () {
-
     updatePage();
     updateSelector();
+    bindEventsListeners();
   }
 
   init();
