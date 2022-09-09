@@ -17,6 +17,10 @@ TODO
 
 - bindare le frecce e spazio al cambio pagina
 
+- cambiare come funziona comic
+
+al momento si legge le pagine in base al contesto
+ma sarebbe meglio passarle coem argomento
 
 NON ESSENZIALI
 
