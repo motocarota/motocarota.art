@@ -7,3 +7,4 @@ resources/_gen
 dist
 dev-docs
 *.swp
+.DS_Store
