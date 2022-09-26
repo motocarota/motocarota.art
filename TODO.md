@@ -1,26 +1,19 @@
 TODO
 ---
 
-- il tema della pagina mi sposta comic_double a dx
+- sottosezione di comic per vedere gli episodi in una lista
 
-  eventualmente stringere e fare la fullscreen mode
+comics
+  aoqtd
+  the descent
+  not today
+  ...
 
-
-  double = fullscreen
-
-- rivedere il formato della pagina comic
-
-  [       titolo           ]
-  [-   [  pagina N  ]     +]
-  [        comic           ]
-  [      post/comments     ]
-
-- bindare le frecce e spazio al cambio pagina
-
-- cambiare come funziona comic
-
-al momento si legge le pagine in base al contesto
-ma sarebbe meglio passarle coem argomento
+aqotd
+  ep.01
+  ep.02
+  ep.03
+  ...
 
 NON ESSENZIALI
 
