@@ -9,6 +9,7 @@ function viewer({ pages, double }) {
     body: document.getElementsByTagName('body')[0],
     container: document.getElementById('container'),
     selector: document.getElementById('selector'),
+    selector2: document.getElementById('selector-bottom'),
     page_0: document.getElementById('image_0'),
     page_1: document.getElementById('image_1'),
   }
@@ -50,6 +51,7 @@ function viewer({ pages, double }) {
     updatePage();
     // updates selector value
     REF.selector.value = nextId;
+    REF.selector2.value = nextId;
     // scroll to show the page element
     REF.page_0.scrollIntoView();
   }
@@ -96,6 +98,7 @@ function viewer({ pages, double }) {
       (p, index) => `<option value="${index}"> pagina ${index} </option>`
     )
     REF.selector.innerHTML = options;
+    REF.selector2.innerHTML = options;
   }
 
   function bindEventsListeners() {
@@ -121,6 +124,10 @@ function viewer({ pages, double }) {
   function init () {
     updatePage();
     updateSelector();
+    // adds "double" class if needed
+    if (isDouble) {
+      REF.container.classList.add('double');
+    }
   }
   
   init();
