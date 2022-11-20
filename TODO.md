@@ -1,6 +1,8 @@
 TODO
 ---
 
+- sezione illustrazioni raggruppate
+
 - sottosezione di comic per vedere gli episodi in una lista
 
 comics
