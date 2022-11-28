@@ -1,7 +1,9 @@
 ---
-title: AOQTD ep.2 - Frank il druido
-date: 2022-09-26 01:00:00
+title: AOQTD ep.2 - Attacco agli orchi
+date: 2022-11-26 09:00:00
 ---
-Episodio 2: Frank il druido
+Another One Quest To Dust
+
+Episodio 2: Attacco agli orchi
 <!--more-->
 {{< comic_double >}}
