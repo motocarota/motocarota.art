@@ -1,25 +1,35 @@
 <section class="my-20 mx-auto">
   <div class="text-2xl font-bold text-center">
     <h1 class="my-10">Get in touch with me</h1>
-    <a
-      href="mailto:{{.Site.Params.authorEmail}}"
-      rel="noopener noreferrer"
-      target="_blank"
-      class="m-10 px-6 py-4 rounded-full font-semibold text-lg bg-black text-white hover:bg-gray-800 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
-    >
-      Email ✉️
-    </a>
-    
-    {{ with .Site.Params.homepage.social.telegram }}
-      <a
-        href="{{.}}"
-        target="_blank"
-        rel="noopener"
-        aria-label="Telegram"
-        class="m-10 px-6 py-4 rounded-full font-semibold text-lg bg-black text-white hover:bg-gray-800 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
-      >
-        Telegram 📱 
+    <div class="flex flex-wrap justify-center">
+      <a href="mailto:{{.Site.Params.authorEmail}}" rel="noopener noreferrer" target="_blank">
+        <img src="/icon/email.png" alt="email icon" width="100px" />
       </a>
-    {{ end }}
+
+      {{ with .Site.Params.homepage.social.telegram }}
+      <a href="{{.}}" target="_blank" rel="noopener" aria-label="Telegram">
+        <img src="/icon/telegram.png" alt="telegram icon" width="100px" />
+      </a>
+      {{ end }}
+
+      {{ with .Site.Params.homepage.social.reddit }}
+      <a href="{{.}}" target="_blank" rel="noopener" aria-label="Telegram">
+        <img src="/icon/reddit.png" alt="reddit icon" width="100px" />
+      </a>
+      {{ end }}
+
+      {{ with .Site.Params.homepage.social.twitter }}
+      <a href="{{.}}" target="_blank" rel="noopener" aria-label="Telegram">
+        <img src="/icon/twitter.png" alt="twitter icon" width="100px" />
+      </a>
+      {{ end }}
+
+      {{ with .Site.Params.homepage.social.instagram }}
+      <a href="{{.}}" target="_blank" rel="noopener" aria-label="Telegram">
+        <img src="/icon/instagram.png" alt="instagram icon" width="100px" />
+      </a>
+      {{ end }}
+
+    </div>
   </div>
 </section>
