@@ -10,6 +10,7 @@ title = "Motocarota.art"
   authorEmail = "motocarota@gmail.com"
   authorImage = "/motocarota-logo.png"
   autoDarkMode = true
+  mixpanel = "aed574b45bdbfa6cf70ba9ebcf149503"
 
   copyright = "All images are Copyright ©2022 Simone Poggi, All Rights Reserved"
   favicon = "favicon.ico"
