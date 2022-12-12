@@ -10,12 +10,6 @@
 	</section>
 	<nav class="flex items-center justify-center flex-wrap text-gray-400 uppercase">
 		<ul id="nav-menu" class="flex font-light justify-evenly mt-5 pl-28 pr-28 space-x-2 w-auto w-full">
-			<li>
-				<a href="{{ .Site.Home.Permalink }}" class="hover:text-blue-800 dark:hover:text-blue-300">
-					Home
-				</a>
-			</li>
-
 			{{ with .Site.GetPage "/commissions" }}
 			<li>
 				<a href="{{ .Permalink }}" class="hover:text-blue-800 dark:hover:text-blue-300">
