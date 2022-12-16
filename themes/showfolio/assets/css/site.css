@@ -101,5 +101,8 @@ img {
   border-color: rgba(209, 213, 219, 1);
   background-color: rgba(229, 231, 235, 1);
   margin: 2px 4px;
-  max-width: 90px;
+}
+
+#container select {
+  flex: 4;
 }

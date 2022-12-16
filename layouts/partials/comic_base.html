@@ -1,8 +1,14 @@
 <div id="container">
   <div class="flex">
+    <button style="padding: 0 30px;" onclick="history.back()">
+      <i class="fas fa-arrow-up"></i>
+      Back to comics
+    </button>
+  </div>
+  <div class="flex">
     <button class="flex-1" onclick="v.prev()">
       <i class="fas fa-arrow-left"></i>
-      Prec.
+      Prev
     </button>
     <button class="flex-1" onclick="v.toggleDouble()">
       <i class="fas fa-book-open"></i>
@@ -11,7 +17,7 @@
     <select class="border flex-1 px-4 rounded" id="selector" onchange="v.goto(value)"></select>
     <button class="flex-1" onclick="v.next()">
       <i class="fas fa-arrow-right"></i>
-      Succ.
+      Next
     </button>
   </div>
   <div class="flex justify-center" class="comic-page-container">
@@ -24,7 +30,7 @@
   <div class="flex">
     <button class="flex-1" onclick="v.prev()">
       <i class="fas fa-arrow-left"></i>
-      Prec.
+      Prev
     </button>
     <button class="flex-1" onclick="v.toggleDouble()">
       <i class="fas fa-book-open"></i>
@@ -33,7 +39,7 @@
     <select class="border flex-1 px-4 rounded" id="selector-bottom" onchange="v.goto(value)"></select>
     <button class="flex-1" onclick="v.next()">
       <i class="fas fa-arrow-right"></i>
-      Succ.
+      Next
     </button>
   </div>
 </div>
