@@ -1,9 +1,9 @@
 ---
-title: AOQTD ep.1 - La testa del conte
-date: 2022-11-20 09:00:00
+title: AOQTD ep.1 - Orcs hunters
+date: 2023-01-04 09:00:00
 ---
 Another One Quest To Dust
 
-Episodio 1: La testa del conte
+Episode 1: Orc hunters
 <!--more-->
 {{< comic_double >}}
