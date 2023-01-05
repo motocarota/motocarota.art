@@ -2,6 +2,6 @@
 title: The Descent
 date: 2015-12-01 10:00:00
 ---
-Questa storia e' stata scritta per la mostra organizzata da Un mare di Matite ad Albissola Marina
+This story was written for the contest "Un mare di Matite" 2015 in Albissola Marina
 <!--more-->
 {{< comic >}}

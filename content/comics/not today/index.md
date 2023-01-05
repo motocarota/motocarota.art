@@ -1,8 +1,8 @@
 ---
-title: Non oggi.
-date: 2015-12-01 10:00:00
+title: Not today.
+date: 2021-12-01 10:00:00
 ---
-Una storia breve sul mio personale rapporto con la depressione.
+A very short story about my personal approach with depression.
 <!--more-->
 
 {{< comic >}}
