@@ -89,6 +89,8 @@ title = "Motocarota.art"
   reddit = "https://reddit.com/u/motocarota"
   artstation = "https://artstation.com/motocarota"
   telegram = "https://t.me/motocarota"
+  patreon = "https://patreon.com/motocarota"
+  linktree = "https://linktree.com/motocarota"
 
 [build]
   writeStats = false
