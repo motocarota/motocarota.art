@@ -21,54 +21,32 @@ title = "Motocarota.art"
   description = ""
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/JeB9XD"
-  img = "/motocarota-aarakocra.jpg"
-  txt = "view in Artstation"
-  
-[[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-stu.jpeg"
-  txt = "view in Artstation"
+  img = "/001-aarakocra.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-torpedo-tribute.jpg"
-  txt = "view in Artstation"
+  img = "/aoqtd-en-01_026.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-demon.jpg"
-  txt = "view in Artstation"
+  img = "/Jumong.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-piccolo.jpg"
-  txt = "view in Artstation"
+  img = "/002-aboleth.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-luce.jpg"
-  txt = "view in Artstation"
+  img = "/aoqtd-d00_004.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-jojo.jpg"
-  txt = "view in Artstation"
+  img = "/Freya.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-filosofo.jpg"
-  txt = "view in Artstation"
+  img = "/Rick.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-skate.jpg"
-  txt = "view in Artstation"
+  img = "/Skate.jpg"
 
 [[params.homepage.gallery]]
-  url = "https://www.artstation.com/artwork/r9dAoL"
-  img = "/motocarota-dark-elf.jpg"
-  txt = "view in Artstation"
+  img = "/Tivale.jpg"
+
 
 [params.homepage.resume]
   skills = ["Procreate", "Clip Studio Paint", "Pencil & Traditional Ink"]
