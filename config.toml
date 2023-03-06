@@ -45,7 +45,7 @@ title = "Motocarota.art"
   img = "/Skate.jpg"
 
 [[params.homepage.gallery]]
-  img = "/Tivale.jpg"
+  img = "/tivale.jpg"
 
 
 [params.homepage.resume]
