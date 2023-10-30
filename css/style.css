@@ -635,6 +635,33 @@ textarea {
   margin: 0 auto;
 }
 
+.logo {
+  height: 140px;
+  width: 140px;
+  margin: 40px auto;
+  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(-350deg);
+  -webkit-transform: rotate(-350deg);
+}
+
+.icon-social {
+  height: 40px;
+  width: 40px;
+  filter: saturate(0);
+}
+
+.icon-social:hover {
+  filter: saturate(1);
+}
+
 .p-overflow-hidden {
   overflow: hidden;
 }
