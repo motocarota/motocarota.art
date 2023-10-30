@@ -1,25 +1,45 @@
-# README
+## TODO
 
-based on https://gohugo.io/hosting-and-deployment/hosting-on-github/
+- mobile version
+- rimpiazzare tre icone con file png/webp
+- rimuovere fonts/css icon files
+- sostituire immagini
+- git init
 
-in order to update github pages you need to manually build, commit and push the `/docs` folder.
 
-I have prepared the `npm run deploy` command to do so.
+### CREDITS:
 
-# development
+THEME: Aside - Free Bootstrap 4 Theme
+AUTHOR: uiCookies.com
+LICENSE: Under Creative Commons 3.0 (probootstrap.com/license)
+AUTHOR URI: https://uicookies.com/
 
-```
-  npm run dev
-```
+Bootstrap
+http://getbootstrap.com/
 
-# build
+jQuery
+http://jquery.com/
 
-```
-  npm run build
-```
+Google Fonts
+https://www.google.com/fonts/
 
-# deploy
+Icomoon
+https://icomoon.io/app/
 
-```
-  npm run deploy
-```
+Open Iconic
+https://useiconic.com/open/
+
+Demo Images
+https://unsplash.com
+
+Owl Carousel 2
+https://owlcarousel2.github.io/OwlCarousel2/
+
+WayPoint
+http://imakewebthings.com/waypoints/
+
+Animate.css
+https://daneden.github.io/animate.css/
+
+ImagesLoaded
+https://imagesloaded.desandro.com/
